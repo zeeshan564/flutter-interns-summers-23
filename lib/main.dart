@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'assesment_1/fi_bilal.dart';
+import 'package:flutter_interns/assesment_1/fi_maham.dart';
+
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: FIBilal(),
+      home: FIMaham(),
     );
   }
 }
