@@ -10,7 +10,7 @@ class FIAmna extends StatelessWidget {
         title: const Text("Amna"),
       ),
       body: const Center(
-        child: Text("Hello! I'm Amna"),
+        child: Text("Hello! I am Amna"),
       ),
     );
   }
