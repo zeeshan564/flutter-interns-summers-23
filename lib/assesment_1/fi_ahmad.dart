@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class FIAhmad extends StatelessWidget {
-  const FIAhmad({super.key});
+class FIAmna extends StatelessWidget {
+  const FIAmna({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Ahmad"),
+        title: const Text("Amna"),
       ),
       body: const Center(
-        child: Text("Hello! I am Ahmad"),
+        child: Text("Hello! I am Amna"),
       ),
     );
   }
