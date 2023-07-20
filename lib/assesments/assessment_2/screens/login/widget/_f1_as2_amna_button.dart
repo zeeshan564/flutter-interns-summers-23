@@ -1,4 +1,4 @@
-part of '../f1_as2_amna_home.dart';
+part of '../f1_as2_amna_login.dart';
 
 class _Button extends StatelessWidget {
   final int i;
