@@ -48,7 +48,8 @@ class _TabCapsuleState extends State<TabCapsule> {
                   currentTab = i;
                 });
               },
-              child: Container(
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 250),
                 height: 60.0,
                 width: 150.0,
                 decoration: BoxDecoration(
