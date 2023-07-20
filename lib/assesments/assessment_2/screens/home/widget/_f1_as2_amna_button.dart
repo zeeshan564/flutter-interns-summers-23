@@ -23,7 +23,7 @@ class _Button extends StatelessWidget {
           ),
         ),
         decoration: BoxDecoration(
-            color: i == 0 ? Colors.transparent : Colors.orange,
+            color: i == 0 ? Colors.transparent : Color(0xFFFA9884),
             borderRadius: BorderRadius.circular(40),
             border: Border.all(color: Colors.grey)),
       ),
