@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_interns/sessions/session_1/constants/constants.dart';
 
 class TabCapsule extends StatefulWidget {
   const TabCapsule({super.key});
@@ -52,7 +53,7 @@ class _TabCapsuleState extends State<TabCapsule> {
                 width: 150.0,
                 decoration: BoxDecoration(
                   color: currentTab == i
-                      ? const Color(0xff39b54a)
+                      ? Constants.primaryColor
                       : Colors.transparent,
                   borderRadius: BorderRadius.circular(12.0),
                 ),
