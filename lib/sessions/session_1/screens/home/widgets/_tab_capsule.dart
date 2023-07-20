@@ -1,14 +1,13 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_interns/sessions/session_1/constants/constants.dart';
+part of '../s1_home.dart';
 
-class TabCapsule extends StatefulWidget {
-  const TabCapsule({super.key});
+class _TabCapsule extends StatefulWidget {
+  const _TabCapsule();
 
   @override
-  State<TabCapsule> createState() => _TabCapsuleState();
+  State<_TabCapsule> createState() => _TabCapsuleState();
 }
 
-class _TabCapsuleState extends State<TabCapsule> {
+class _TabCapsuleState extends State<_TabCapsule> {
   // initState
   // dispose
   // ..

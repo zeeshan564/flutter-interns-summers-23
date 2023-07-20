@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_interns/sessions/session_1/constants/constants.dart';
 import 'package:flutter_interns/sessions/session_1/widgets/core/app_button/app_button.dart';
-import 'package:flutter_interns/sessions/session_1/widgets/design/home_screen_card.dart';
 import 'package:flutter_interns/sessions/session_1/widgets/design/stats.dart';
-import 'package:flutter_interns/sessions/session_1/widgets/design/tab_capsule.dart';
+
+part 'widgets/_tab_capsule.dart';
+part 'widgets/_home_screen_card.dart';
 
 class S1Home extends StatelessWidget {
   const S1Home({super.key});
@@ -26,9 +27,9 @@ class S1Home extends StatelessWidget {
             ),
           ),
           smallSpace,
-          const TabCapsule(),
+          const _TabCapsule(),
           smallSpace,
-          for (int i = 0; i < 2; i++) const HomeScreenCard(),
+          for (int i = 0; i < 2; i++) const _HomeScreenCard(),
           smallSpace,
           const Stats(),
           smallSpace,
