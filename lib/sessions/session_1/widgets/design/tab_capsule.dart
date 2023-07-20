@@ -1,7 +1,31 @@
 import 'package:flutter/material.dart';
 
-class TabCapsule extends StatelessWidget {
+class TabCapsule extends StatefulWidget {
   const TabCapsule({super.key});
+
+  @override
+  State<TabCapsule> createState() => _TabCapsuleState();
+}
+
+class _TabCapsuleState extends State<TabCapsule> {
+  // initState
+  // dispose
+  // ..
+
+  // setState --> bascially helps to update the UI
+  // it will call the nearest build() method
+
+  /// index logic
+  int currentTab = 0;
+
+  /// String logic
+  /// List<String> label =['swap', 'exchange']
+  /// String currentLabel = ....
+
+  // enum logic
+  /// enum --> type
+  /// enum TabLabel {swap, exchange}
+  /// TabLabel currentLabel = ...
 
   @override
   Widget build(BuildContext context) {
@@ -16,33 +40,27 @@ class TabCapsule extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          /// List.generate()
-          /// Spread operators ...[]
-          /// for loop
           for (int i = 0; i < 2; i++)
             GestureDetector(
               onTap: () {
-                if (i == 1) {
-                  // 2nd gesture
-                  print('this is 2nd'); // PR must be without print()
-
-                  // debugPrint() --> debugging
-                } else {
-                  print('this is first');
-                }
+                setState(() {
+                  currentTab = i;
+                });
               },
               child: Container(
                 height: 60.0,
                 width: 150.0,
                 decoration: BoxDecoration(
-                  color: i == 1 ? Colors.transparent : const Color(0xff39b54a),
+                  color: currentTab == i
+                      ? const Color(0xff39b54a)
+                      : Colors.transparent,
                   borderRadius: BorderRadius.circular(12.0),
                 ),
                 child: Center(
                   child: Text(
-                    i == 1 ? 'Exchange' : 'Swap',
+                    i == 0 ? 'Swap' : 'Exchange',
                     style: TextStyle(
-                      color: i == 1 ? Colors.grey : Colors.white,
+                      color: currentTab == i ? Colors.white : Colors.grey,
                       fontSize: 23.0,
                     ),
                   ),
