@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../../constants/f1_as2_amna_colors.dart';
+import '../../constants/f1_as2_amna_constantd.dart';
 part 'widget/_fi_as2_amna_button.dart';
 
 class F1As2AmnaLoginScreen extends StatelessWidget {
