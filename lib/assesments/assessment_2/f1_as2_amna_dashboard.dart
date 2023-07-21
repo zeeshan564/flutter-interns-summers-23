@@ -70,7 +70,6 @@ class _F1As2AmnaDashboardState extends State<F1As2AmnaDashboard> {
               }),
               child: SvgPicture.asset(
                 entry.value,
-                // ignore: deprecated_member_use
                 color: currentIndex == entry.key
                     ? F1As2AmnaConstants.primaryColor
                     : const Color(0xFF9E9898),

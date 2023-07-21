@@ -61,6 +61,7 @@ flutter:
   assets:
     - assets/
     - assets/svgs/
+    - assets/images/
     - assets/amna/
 
   # An image asset can refer to one or more resolution-specific "variants", see
