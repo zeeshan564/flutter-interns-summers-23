@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/constants.dart';
+import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
 
 class FIA2ZeeshanButton extends StatelessWidget {
   final VoidCallback onPressed;
@@ -14,7 +14,7 @@ class FIA2ZeeshanButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var screen = MediaQuery.of(context).size;
+    final Size screen = MediaQuery.sizeOf(context);
 
     return GestureDetector(
       onTap: () => onPressed(),
@@ -25,7 +25,7 @@ class FIA2ZeeshanButton extends StatelessWidget {
           decoration: BoxDecoration(
             color: backgroundColor,
             borderRadius: BorderRadius.circular(screen.height * 0.1),
-            border: Border.all(color: color1, width: 1.5),
+            border: Border.all(color: borderColor, width: 1.5),
           ),
           child: child),
     );

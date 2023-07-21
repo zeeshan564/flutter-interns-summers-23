@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/constants.dart';
+import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
+import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_nav_functions.dart';
 import 'package:flutter_interns/assesments/assessment_2/zeeshan/widgets/core/fi_a2_zeeshan_button.dart';
 
 import 'fi_a2_zeeshan_home_screen/fi_a2_zeeshan_home_screen.dart';
@@ -9,7 +10,7 @@ class FIA2ZeeshanLoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var screen = MediaQuery.of(context).size;
+    final Size screen = MediaQuery.sizeOf(context);
 
     return Scaffold(
       backgroundColor: secondaryColor,
@@ -38,7 +39,8 @@ class FIA2ZeeshanLoginScreen extends StatelessWidget {
                     ),
                     SizedBox(height: screen.height * 0.04),
                     FIA2ZeeshanButton(
-                      onPressed: () => _navigateToNextScreen(context),
+                      onPressed: () => navigateToReplaceScreen(
+                          context, const FIA2ZeeshanHomeScreen()),
                       child: Text(
                         'Login',
                         style: TextStyle(
@@ -49,7 +51,8 @@ class FIA2ZeeshanLoginScreen extends StatelessWidget {
                     ),
                     SizedBox(height: screen.height * 0.02),
                     FIA2ZeeshanButton(
-                      onPressed: () => _navigateToNextScreen(context),
+                      onPressed: () => navigateToReplaceScreen(
+                          context, const FIA2ZeeshanHomeScreen()),
                       backgroundColor: primaryColor,
                       child: Text(
                         'Sign up',
@@ -68,10 +71,5 @@ class FIA2ZeeshanLoginScreen extends StatelessWidget {
         ),
       ),
     );
-  }
-
-  void _navigateToNextScreen(BuildContext context) {
-    Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const FIA2ZeeshanHomeScreen()));
   }
 }
