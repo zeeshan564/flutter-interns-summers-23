@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-part 'widget/_f1_as2_amna_button.dart';
+import '../../constants/f1_as2_amna_colors.dart';
+part 'widget/_fi_as2_amna_button.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class F1As2AmnaLoginScreen extends StatelessWidget {
+  const F1As2AmnaLoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,12 +30,12 @@ class LoginScreen extends StatelessWidget {
           ),
           Column(children: [
             smallSpace,
-            _Button(
+            const _Button(
               i: 0,
               value: "Login",
             ),
             smallSpace,
-            _Button(
+            const _Button(
               i: 1,
               value: "Signup",
             )

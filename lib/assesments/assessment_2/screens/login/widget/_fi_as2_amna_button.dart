@@ -1,4 +1,4 @@
-part of '../f1_as2_amna_login.dart';
+part of '../fi_as2_amna_login.dart';
 
 class _Button extends StatelessWidget {
   final int i;
@@ -11,8 +11,13 @@ class _Button extends StatelessWidget {
       onTap: () {},
       child: Container(
         width: 330.0,
+        decoration: BoxDecoration(
+            color:
+                i == 0 ? Colors.transparent : F1As2AmnaConstants.primaryColor,
+            borderRadius: BorderRadius.circular(40),
+            border: Border.all(color: Colors.grey)),
         child: Padding(
-          padding: EdgeInsets.all(25.0),
+          padding: const EdgeInsets.all(25.0),
           child: Text(
             value,
             textAlign: TextAlign.center,
@@ -22,10 +27,6 @@ class _Button extends StatelessWidget {
                 fontWeight: FontWeight.w500),
           ),
         ),
-        decoration: BoxDecoration(
-            color: i == 0 ? Colors.transparent : Color(0xFFFA9884),
-            borderRadius: BorderRadius.circular(40),
-            border: Border.all(color: Colors.grey)),
       ),
     );
   }
