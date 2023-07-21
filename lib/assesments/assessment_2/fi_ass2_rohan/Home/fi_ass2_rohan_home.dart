@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Colors/fi_ass_rohan_colors.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/profile/fi_ass2_rohan_profile.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../SizedBox copy/fi_ass2_rohan_size.dart';
+import '../Widgets/SizedBox/fi_ass2_rohan_size.dart';
 import '../design/fi_ass2_rohan_avator.dart';
 
 class FiAssRohanHome extends StatefulWidget {

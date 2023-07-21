@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../SizedBox copy/fi_ass2_rohan_size.dart';
+
+import '../../Widgets/SizedBox/fi_ass2_rohan_size.dart';
 
 class FiAssRohanPart1 extends StatelessWidget {
   const FiAssRohanPart1({super.key});

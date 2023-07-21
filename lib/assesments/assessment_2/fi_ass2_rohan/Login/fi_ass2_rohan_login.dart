@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Colors/fi_ass_rohan_colors.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/core/fi_ass2_rohan_btn.dart';
 import '../Home/fi_ass2_rohan_home.dart';
-import '../SizedBox copy/fi_ass2_rohan_size.dart';
+import '../Widgets/SizedBox/fi_ass2_rohan_size.dart';
 
 class FiA2RohanLogin extends StatelessWidget {
   const FiA2RohanLogin({super.key});

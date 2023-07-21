@@ -4,7 +4,8 @@ import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/profile/wi
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/profile/widgets/fi_ass_rohan_part1.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/profile/widgets/fi_ass_rohan_part2.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/profile/widgets/fi_ass_rohan_part4.dart';
-import '../SizedBox copy/fi_ass2_rohan_size.dart';
+
+import '../Widgets/SizedBox/fi_ass2_rohan_size.dart';
 
 class FiAssRohanProfile extends StatelessWidget {
   const FiAssRohanProfile({super.key});
