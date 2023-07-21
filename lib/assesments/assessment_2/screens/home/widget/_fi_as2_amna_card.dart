@@ -88,9 +88,7 @@ class _F1As2AmnaCard extends StatelessWidget {
                   width: 20.0,
                 ),
                 SvgPicture.asset("assets/svgs/Share.svg"),
-                const SizedBox(
-                  width: 75.0,
-                ),
+                const Spacer(),
                 const Text(
                   "35 min ago",
                   style: TextStyle(
