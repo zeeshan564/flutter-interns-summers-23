@@ -11,7 +11,7 @@ fi-a#-your-name
 ## Checklist
 
 - [ ] Added PR title as per format i.e. `fi-a#-your-name`
-- [ ] Files and Folders names are per format i.e. `fi_a#_your_name_home.dart` and `FiA2YourNameHome`
+- [ ] Files and Folders names are per format i.e. `fi_a#_your_name_home.dart` and `YourNameHome` e.g `MHamzaHomeScreen`
 - [ ] Get reviewer approval
 
 
