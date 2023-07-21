@@ -12,7 +12,7 @@ fi-a#-your-name
 
 - [ ] Added PR title as per format i.e. `fi-a#-your-name`
 - [ ] You can name folders name noramlly e.g. widgets, constants, screens etc.
-- [ ] Files and Widgets names are per format i.e. `fi_a#_your_name_home.dart` and `YourNameHome` e.g `MHamzaHomeScreen`
+- [ ] Files and Widgets names are per format i.e. `fi_a#_your_name_home.dart` and `FiA#YourNameHome` e.g `FiA2MHamzaHomeScreen`
 - [ ] Get reviewer approval
 
 
