@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_interns/sessions/session_2/theme/s2_spaces.dart';
+import 'package:flutter_interns/sessions/session_2/theme/s2_typography.dart';
 import 'package:flutter_interns/sessions/session_2/utils/assets.dart';
 import 'package:flutter_interns/sessions/session_2/widgets/design/s2_avatar.dart';
 import 'package:flutter_svg/flutter_svg.dart';

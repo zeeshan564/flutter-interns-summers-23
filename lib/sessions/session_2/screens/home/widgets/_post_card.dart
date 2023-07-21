@@ -35,10 +35,7 @@ class _PostCard extends StatelessWidget {
             ),
             title: const Text(
               'Anton Demeron',
-              style: TextStyle(
-                fontSize: 14.0,
-                fontWeight: FontWeight.w700,
-              ),
+              style: AppText.b1,
             ),
             subtitle: const Text('@anton_demeron'),
             trailing: IconButton(
@@ -76,10 +73,7 @@ class _PostCard extends StatelessWidget {
               ),
               Text(
                 ' 23',
-                style: TextStyle(
-                  fontSize: 12.0,
-                  color: Colors.grey,
-                ),
+                style: AppText.s1,
               ),
               Spaces.x,
               Icon(
@@ -90,17 +84,14 @@ class _PostCard extends StatelessWidget {
               Spacer(),
               Text(
                 '35 min ago',
-                style: TextStyle(
-                  fontSize: 12.0,
-                  color: Colors.grey,
-                ),
+                style: AppText.s1,
               ),
             ],
           ),
           Spaces.y,
           const Text(
             'Down the road',
-            style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+            style: AppText.b1,
           ),
           Spaces.y,
         ],
