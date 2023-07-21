@@ -59,7 +59,7 @@ class _FIA2ZeeshanPostCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(screen.height * 0.03),
                   image: const DecorationImage(
-                      image: AssetImage('assets/fi-a2-zeeshan-unsplash.png'),
+                      image: AssetImage('assets/images/card.png'),
                       fit: BoxFit.contain),
                 ),
               ),

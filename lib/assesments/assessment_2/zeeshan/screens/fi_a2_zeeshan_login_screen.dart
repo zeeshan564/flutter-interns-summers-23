@@ -22,8 +22,7 @@ class FIA2ZeeshanLoginScreen extends StatelessWidget {
             children: [
               Expanded(
                 flex: 3,
-                child:
-                    Image.asset('assets/fi-a2-zeeshan-login-screen-logo.png'),
+                child: Image.asset('assets/login.png'),
               ),
               Expanded(
                 flex: 2,

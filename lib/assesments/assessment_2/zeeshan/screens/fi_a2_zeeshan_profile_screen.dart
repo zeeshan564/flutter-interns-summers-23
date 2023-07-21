@@ -222,7 +222,7 @@ class PhotoTab extends StatelessWidget {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(screen.height * 0.025),
                   image: const DecorationImage(
-                      image: AssetImage('assets/fi-a2-zeeshan-photo1.png'),
+                      image: AssetImage('assets/images/image1.png'),
                       fit: BoxFit.cover)),
             ),
             Column(
@@ -235,8 +235,7 @@ class PhotoTab extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         image: DecorationImage(
-                            image:
-                                AssetImage('assets/fi-a2-zeeshan-photo$i.png'),
+                            image: AssetImage('assets/images/image$i.png'),
                             fit: BoxFit.cover)),
                   ),
               ],
