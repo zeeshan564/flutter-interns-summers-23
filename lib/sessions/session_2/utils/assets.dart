@@ -4,18 +4,18 @@ class StaticAssets {
   static const String back = 'assets/svgs/back.svg';
   static const String home = 'assets/svgs/home.svg';
   static const String menu = 'assets/svgs/menu.svg';
-  static const String notification = 'assets/svgs/notification.svg';
-  static const String notification2 = 'assets/svgs/notification_2.svg';
+  static const String chat = 'assets/svgs/notification.svg';
+  static const String notification = 'assets/svgs/notification_2.svg';
   static const String profile = 'assets/svgs/profile.svg';
   static const String search = 'assets/svgs/search.svg';
   static const String settings = 'assets/svgs/settings.svg';
 
   // images
   static const String card = 'assets/images/card.png';
-  static const String iamge1 = 'assets/images/iamge1.png';
-  static const String iamge2 = 'assets/images/iamge2.png';
-  static const String iamge3 = 'assets/images/iamge3.png';
-  static const String iamge4 = 'assets/images/iamge4.png';
+  static const String image1 = 'assets/images/image1.png';
+  static const String image2 = 'assets/images/image2.png';
+  static const String image3 = 'assets/images/image3.png';
+  static const String image4 = 'assets/images/image4.png';
 
   // utils
   static const String girl1 = 'assets/girl1.png';
