@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../utils/f1_as2_amna_assets.dart';
+import '../../utils/fi_as2_amna_assets.dart';
+import '../../widgets/fi_as2_amna_avatar.dart';
 
 part 'widget/_fi_as2_amna_card.dart';
 
@@ -27,10 +28,7 @@ class F1As2AmnaHome extends StatelessWidget {
       height: 10.0,
     );
     Widget mediumSpace = const SizedBox(
-      height: 32.0,
-    );
-    Widget imageWidth = const SizedBox(
-      width: 32.0,
+      height: 18.0,
     );
 
     return Scaffold(
@@ -54,12 +52,26 @@ class F1As2AmnaHome extends StatelessWidget {
               SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
-                    children: generateImagesWithSeparator(images, imageWidth),
+                    children: [
+                      const FiAs2Avatar(
+                        imagePath: F1As2AmnaAssets.girl_1,
+                        showBorder: false,
+                        putAddButton: true,
+                      ),
+                      ...images.map(
+                        (story) => Padding(
+                          padding: const EdgeInsets.only(left: 10),
+                          child: FiAs2Avatar(
+                            imagePath: story,
+                          ),
+                        ),
+                      ),
+                    ],
                   )),
               mediumSpace,
               Container(
                 margin: const EdgeInsets.only(top: 10),
-                height: 505.0,
+                height: 510.0,
                 child: SingleChildScrollView(
                   scrollDirection: Axis.vertical,
                   child: Column(
@@ -72,16 +84,6 @@ class F1As2AmnaHome extends StatelessWidget {
         ),
       ),
     );
-  }
-
-  List<Widget> generateImagesWithSeparator(
-      List<String> images, Widget separator) {
-    List<Widget> imageWidget =
-        images.map((image) => Image.asset(image)).toList();
-    List<Widget> widgetsWithSeparator =
-        imageWidget.expand((widget) => [widget, separator]).toList();
-    widgetsWithSeparator.removeLast(); // Remove the last separator at the end
-    return widgetsWithSeparator;
   }
 
   List<Widget> generateCardsWithSeparator(

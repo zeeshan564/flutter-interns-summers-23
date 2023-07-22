@@ -26,9 +26,12 @@ class _F1As2AmnaCard extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Image.asset("assets/girl2.png"),
+                  const FiAs2Avatar(
+                    imagePath: F1As2AmnaAssets.girl_1,
+                    showBorder: false,
+                  ),
                   const SizedBox(
-                    width: 15,
+                    width: 10,
                   ),
                   const Column(
                     children: [
@@ -49,13 +52,13 @@ class _F1As2AmnaCard extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(
-                    width: 80.0,
+                    width: 70.0,
                   ),
                   SvgPicture.asset(F1As2AmnaAssets.more),
                 ],
               ),
               const SizedBox(
-                height: 15.0,
+                height: 5.0,
               ),
               Image.asset(F1As2AmnaAssets.cardImg),
               const SizedBox(
@@ -64,7 +67,7 @@ class _F1As2AmnaCard extends StatelessWidget {
               Row(
                 children: [
                   const SizedBox(
-                    height: 50.0,
+                    height: 40.0,
                   ),
                   SvgPicture.asset("assets/svgs/Like.svg"),
                   const SizedBox(

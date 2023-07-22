@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/f1_as2_amna_add.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/f1_as2_amna_notification.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/f1_as2_amna_search.dart';
+import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_add.dart';
+import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_notification.dart';
+import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_search.dart';
 import 'package:flutter_interns/assesments/assessment_2/screens/home/fi_as2_amna_home.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/profile/f1_as2_amna_profile.dart';
+import 'package:flutter_interns/assesments/assessment_2/screens/profile/fi_as2_amna_profile.dart';
 import 'package:flutter_svg/svg.dart';
-import 'constants/f1_as2_amna_constants.dart';
+import 'constants/fi_as2_amna_constants.dart';
 
 class F1As2AmnaDashboard extends StatefulWidget {
   const F1As2AmnaDashboard({super.key});
