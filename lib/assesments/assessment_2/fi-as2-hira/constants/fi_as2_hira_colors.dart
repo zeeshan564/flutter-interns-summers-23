@@ -7,5 +7,6 @@ class Constants {
   static const black = Color(0xFF000000);
   static const pink = Color(0xFFfa9884);
   static const fontgrey = Color(0xFF706c6c);
+  static const boxgrey = Color(0xFFfcfcfc);
   static const textgrey = Color(0xFFEFEFEF);
 }

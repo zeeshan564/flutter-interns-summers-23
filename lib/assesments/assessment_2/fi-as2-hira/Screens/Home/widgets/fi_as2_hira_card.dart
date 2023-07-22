@@ -15,7 +15,7 @@ class H1Cardbox extends StatelessWidget {
             blurRadius: 4.0,
           ),
         ],
-        color: const Color(0xFFfcfcfc),
+        color: Constants.boxgrey,
         borderRadius: BorderRadius.circular(20.0),
       ),
       child: Column(
