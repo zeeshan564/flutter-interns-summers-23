@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../constants/fi_as2_hira_spaces.dart';
 
 class H1Cardbox extends StatelessWidget {
   const H1Cardbox({super.key});
@@ -66,56 +69,43 @@ class H1Cardbox extends StatelessWidget {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(left: 15, top: 10),
-            child: Row(
-              children: [
-                const Icon(
-                  Icons.favorite_border_sharp,
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(left: 5),
-                  child: Text(
-                    '573',
-                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 8),
-                  child: Image.asset("assets/fi-as2-hira-assets/Coment.png"),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(left: 5),
-                  child: Text(
-                    '30',
-                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 10),
-                  child: Image.asset("assets/fi-as2-hira-assets/Share.png"),
-                ),
-                const Padding(
-                  padding: EdgeInsets.only(left: 75),
-                  child: Text(
-                    '35 min ago',
-                    style: TextStyle(
-                        fontSize: 14,
-                        color: Constants.grey,
-                        fontWeight: FontWeight.w700),
-                  ),
-                ),
-              ],
-            ),
+          Spaces.h10,
+          Row(
+            children: [
+              Spaces.w15,
+              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Like.svg'),
+              Spaces.w5,
+              const Text(
+                '573',
+                style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
+              ),
+              Spaces.w10,
+              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Coment.svg'),
+              Spaces.w5,
+              const Text(
+                '30',
+                style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
+              ),
+              Spaces.w15,
+              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Share.svg'),
+              const Spacer(),
+              const Text(
+                '35 min ago',
+                style: TextStyle(
+                    fontSize: 14,
+                    color: Constants.grey,
+                    fontWeight: FontWeight.w700),
+              ),
+              Spaces.w15,
+            ],
           ),
+          Spaces.h10,
           const Row(
             children: [
-              Padding(
-                padding: EdgeInsets.only(left: 20, top: 10),
-                child: Text(
-                  "Down the road",
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
-                ),
+              Spaces.w20,
+              Text(
+                "Down the road",
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
               )
             ],
           )

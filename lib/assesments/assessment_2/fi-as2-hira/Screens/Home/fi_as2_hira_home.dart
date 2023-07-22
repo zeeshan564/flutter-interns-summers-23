@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/Home/widgets/fi_as2_hira_bottom.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/Home/widgets/fi_as2_hira_card.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/Home/widgets/fi_as2_hira_stack_avatar.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/Home/widgets/fi_as2_hira_avatar.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_bottom.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_card.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_stack_avatar.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_avatar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class H1Home extends StatelessWidget {
