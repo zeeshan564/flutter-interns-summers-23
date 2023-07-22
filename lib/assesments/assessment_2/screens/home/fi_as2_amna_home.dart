@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../utils/f1_as2_amna_assets.dart';
+
 part 'widget/_fi_as2_amna_card.dart';
 
 class F1As2AmnaHome extends StatelessWidget {
@@ -9,10 +11,12 @@ class F1As2AmnaHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> images = [
-      'assets/girl1.png',
-      'assets/man1.png',
-      'assets/girl2.png',
-      'assets/man2.png',
+      F1As2AmnaAssets.girl_1,
+      F1As2AmnaAssets.man_1,
+      F1As2AmnaAssets.girl_2,
+      F1As2AmnaAssets.man_1,
+      F1As2AmnaAssets.girl_1,
+      F1As2AmnaAssets.girl_2,
     ];
     Widget smallSpace = const SizedBox(
       height: 40.0,
@@ -34,12 +38,15 @@ class F1As2AmnaHome extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                SvgPicture.asset("assets/svgs/menu.svg"),
-                SvgPicture.asset("assets/svgs/notification.svg"),
+                SvgPicture.asset(F1As2AmnaAssets.menu),
+                SvgPicture.asset(F1As2AmnaAssets.notification),
               ],
             ),
             smallSpace,
-            Row(children: generateImagesWithSeparator(images, imageWidth)),
+            SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                    children: generateImagesWithSeparator(images, imageWidth))),
             smallSpace,
             const _F1As2AmnaCard(),
           ],

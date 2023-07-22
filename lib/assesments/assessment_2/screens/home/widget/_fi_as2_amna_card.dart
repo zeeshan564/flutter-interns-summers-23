@@ -50,13 +50,13 @@ class _F1As2AmnaCard extends StatelessWidget {
                 const SizedBox(
                   width: 80.0,
                 ),
-                SvgPicture.asset("assets/svgs/More.svg"),
+                SvgPicture.asset(F1As2AmnaAssets.more),
               ],
             ),
             const SizedBox(
               height: 15.0,
             ),
-            Image.asset("assets/card.png"),
+            Image.asset(F1As2AmnaAssets.cardImg),
             const SizedBox(
               height: 5.0,
             ),
@@ -87,7 +87,7 @@ class _F1As2AmnaCard extends StatelessWidget {
                 const SizedBox(
                   width: 20.0,
                 ),
-                SvgPicture.asset("assets/svgs/Share.svg"),
+                SvgPicture.asset(F1As2AmnaAssets.cardImg),
                 const Spacer(),
                 const Text(
                   "35 min ago",
