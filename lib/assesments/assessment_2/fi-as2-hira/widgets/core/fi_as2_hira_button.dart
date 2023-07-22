@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
 
 class H1Button extends StatelessWidget {
   final VoidCallback onPressed;
@@ -18,7 +19,7 @@ class H1Button extends StatelessWidget {
         padding: const EdgeInsets.all(20.0),
         width: 350,
         decoration: BoxDecoration(
-          border: Border.all(width: 2, color: const Color(0xFF9e9898)),
+          border: Border.all(width: 2, color: Constants.grey),
           color: color,
           borderRadius: BorderRadius.circular(50),
         ),
