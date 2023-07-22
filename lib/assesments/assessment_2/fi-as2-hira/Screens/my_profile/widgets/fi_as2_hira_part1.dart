@@ -1,8 +1,8 @@
 
 part of '../fi_as2_hira_profile.dart';
 
-class H1Part1 extends StatelessWidget {
-  const H1Part1({super.key});
+class H1ProfileContainer extends StatelessWidget {
+  const H1ProfileContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
