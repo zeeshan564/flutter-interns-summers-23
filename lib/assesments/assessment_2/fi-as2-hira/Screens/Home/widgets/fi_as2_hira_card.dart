@@ -78,7 +78,7 @@ class H1Cardbox extends StatelessWidget {
               Spaces.w5,
               const Text(
                 '30',
-                style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
+                style: TextStyle(fontSize: 11, fontWeight: FontWeight.w600),
               ),
               Spaces.w15,
               SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Share.svg'),
