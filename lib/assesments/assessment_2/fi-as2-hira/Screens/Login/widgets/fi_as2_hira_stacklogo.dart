@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
 
-import '../../../constants/fi_as2_hira_colors.dart';
-import 'fi_as2_hira_circlecontainer.dart';
-import 'fi_as2_hira_dottedborder.dart';
+part of '../fi_as2_hira_login.dart';
 
 class H1Logo extends StatelessWidget {
   const H1Logo({super.key});

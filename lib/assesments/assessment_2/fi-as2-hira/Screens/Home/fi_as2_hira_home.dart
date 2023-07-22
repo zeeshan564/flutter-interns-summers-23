@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_card.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_stack_avatar.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/Home/widgets/fi_as2_hira_avatar.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_spaces.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+part 'widgets/fi_as2_hira_avatar.dart';
+part 'widgets/fi_as2_hira_card.dart';
+part 'widgets/fi_as2_hira_stack_avatar.dart';
 
 class H1Home extends StatelessWidget {
   const H1Home({super.key});

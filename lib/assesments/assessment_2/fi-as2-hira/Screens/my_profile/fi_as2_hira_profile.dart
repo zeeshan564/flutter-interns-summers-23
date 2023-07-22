@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/my_profile/widgets/fi_as2_hira_part1.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/my_profile/widgets/fi_as2_hira_part3.dart';
-import 'widgets/fi_as2_hira_text.dart';
-import 'widgets/fi_as2_hira_part2.dart';
+import '../../constants/fi_as2_hira_colors.dart';
+part 'widgets/fi_as2_hira_part1.dart';
+part 'widgets/fi_as2_hira_part2.dart';
+part 'widgets/fi_as2_hira_part3.dart';
+part 'widgets/fi_as2_hira_text.dart';
 
 class H1Profile extends StatelessWidget {
   const H1Profile({super.key});

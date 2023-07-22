@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 
-import '../../../constants/fi_as2_hira_colors.dart';
+part of '../fi_as2_hira_home.dart';
+
 
 class H1Avatar extends StatelessWidget {
   final Widget child;

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
+part of '../fi_as2_hira_login.dart';
 
 class H1Circle extends StatelessWidget {
   final Widget child;

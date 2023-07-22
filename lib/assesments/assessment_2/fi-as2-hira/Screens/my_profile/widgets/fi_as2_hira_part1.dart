@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
+
+part of '../fi_as2_hira_profile.dart';
 
 class H1Part1 extends StatelessWidget {
   const H1Part1({super.key});

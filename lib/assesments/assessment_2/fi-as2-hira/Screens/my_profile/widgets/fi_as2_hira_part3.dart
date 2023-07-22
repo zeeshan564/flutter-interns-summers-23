@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../fi_as2_hira_profile.dart';
 
 class H1Part3 extends StatelessWidget {
   const H1Part3({super.key});

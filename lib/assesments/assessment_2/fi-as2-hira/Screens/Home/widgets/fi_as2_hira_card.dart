@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-
-import '../../../constants/fi_as2_hira_spaces.dart';
+part of '../fi_as2_hira_home.dart';
 
 class H1Cardbox extends StatelessWidget {
   const H1Cardbox({super.key});

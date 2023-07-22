@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
+part of '../fi_as2_hira_home.dart';
 
 class H1Stackcircle extends StatelessWidget {
-  
-
   const H1Stackcircle({
     super.key,
   });
@@ -31,7 +29,7 @@ class H1Stackcircle extends StatelessWidget {
                   ),
                 )
               ],
-            ),          
+            ),
           ),
         ),
       ),
