@@ -27,15 +27,13 @@ class H1Cardbox extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Constants.pink,
                   borderRadius: BorderRadius.circular(50)),
-              child: Padding(
-                padding: const EdgeInsets.all(3.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(50),
-                  child: Container(
-                    color: Colors.white,
-                    padding: const EdgeInsets.all(2),
-                    child: Image.asset("assets/man1.png"),
-                  ),
+              padding: EdgeInsets.all(3.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(50),
+                child: Container(
+                  color: Colors.white,
+                  padding: const EdgeInsets.all(2),
+                  child: Image.asset("assets/man1.png"),
                 ),
               ),
             ),
