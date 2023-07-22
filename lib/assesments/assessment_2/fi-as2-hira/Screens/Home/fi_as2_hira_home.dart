@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_spaces.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-part 'widgets/fi_as2_hira_avatar.dart';
+
+import 'widgets/fi_as2_hira_avatar.dart';
+
 part 'widgets/fi_as2_hira_card.dart';
-part 'widgets/fi_as2_hira_stack_avatar.dart';
 
 class H1Home extends StatelessWidget {
   const H1Home({super.key});
@@ -35,7 +36,13 @@ class H1Home extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  const H1Stackcircle(),
+                  H1Avatar(
+                    showBorder: false,
+                    hasAddButton: true,
+                    child: Image.asset(
+                      'assets/girl1.png',
+                    ),
+                  ),
                   H1Avatar(
                     child: Image.asset(
                       'assets/man1.png',
