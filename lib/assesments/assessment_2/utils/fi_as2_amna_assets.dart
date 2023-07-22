@@ -2,6 +2,8 @@ class F1As2AmnaAssets {
   static const circleImg = "assets/loginImg.svg";
 
   static const add = "assets/svgs/add.svg";
+  static const back = "assets/svgs/back.svg";
+  static const commeny = "assets/svgs/Coment.svg";
   static const home = "assets/svgs/home.svg";
   static const like = "assets/svgs/Like.svg";
   static const menu = "assets/svgs/menu.svg";

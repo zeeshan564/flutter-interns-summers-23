@@ -12,8 +12,7 @@ class _Button extends StatelessWidget {
       child: Container(
         width: 330.0,
         decoration: BoxDecoration(
-            color:
-                i == 0 ? Colors.transparent : F1As2AmnaConstants.primaryColor,
+            color: i == 0 ? Colors.transparent : FiAs2AmnaColors.primaryColor,
             borderRadius: BorderRadius.circular(40),
             border: Border.all(color: Colors.grey)),
         child: Padding(

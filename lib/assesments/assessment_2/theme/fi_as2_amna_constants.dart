@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-class F1As2AmnaConstants {
+class FiAs2AmnaColors {
   static const primaryColor = Color(0xFFFA9884);
 }

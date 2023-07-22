@@ -4,8 +4,8 @@ import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_noti
 import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_search.dart';
 import 'package:flutter_interns/assesments/assessment_2/screens/home/fi_as2_amna_home.dart';
 import 'package:flutter_interns/assesments/assessment_2/screens/profile/fi_as2_amna_profile.dart';
+import 'package:flutter_interns/assesments/assessment_2/theme/fi_as2_amna_constants.dart';
 import 'package:flutter_svg/svg.dart';
-import 'constants/fi_as2_amna_constants.dart';
 
 class F1As2AmnaDashboard extends StatefulWidget {
   const F1As2AmnaDashboard({super.key});
@@ -20,7 +20,7 @@ class _F1As2AmnaDashboardState extends State<F1As2AmnaDashboard> {
     const F1As2AmnaHome(),
     const F1As2AmnaSearch(),
     const F1As2AmnaAdd(),
-    const F1As2AmnaProfile(),
+    FiAs2AmnaProfile(),
     const F1As2AmnaNotification(), // 0
   ];
   Widget smallWidth = const SizedBox(
@@ -71,7 +71,7 @@ class _F1As2AmnaDashboardState extends State<F1As2AmnaDashboard> {
               child: SvgPicture.asset(
                 entry.value,
                 color: currentIndex == entry.key
-                    ? F1As2AmnaConstants.primaryColor
+                    ? FiAs2AmnaColors.primaryColor
                     : const Color(0xFF9E9898),
               ),
             ))

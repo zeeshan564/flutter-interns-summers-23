@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/utils/fi_as2_amna_assets.dart';
 import 'package:flutter_svg/svg.dart';
-import '../../constants/fi_as2_amna_constants.dart';
+import '../../theme/fi_as2_amna_constants.dart';
 part 'widget/_fi_as2_amna_button.dart';
 
 class F1As2AmnaLoginScreen extends StatelessWidget {

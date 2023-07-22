@@ -2,18 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_interns/assesments/assessment_2/utils/fi_as2_amna_assets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../constants/fi_as2_amna_constants.dart';
+import '../theme/fi_as2_amna_constants.dart';
 
 class FiAs2Avatar extends StatelessWidget {
   final String imagePath;
   final bool showBorder;
   final bool putAddButton;
+  final double size;
 
   const FiAs2Avatar({
     super.key,
     required this.imagePath,
     this.showBorder = true,
     this.putAddButton = false,
+    this.size = 34.0,
   });
 
   @override
@@ -21,7 +23,7 @@ class FiAs2Avatar extends StatelessWidget {
     return CircleAvatar(
       radius: 39.0,
       backgroundColor:
-          showBorder ? F1As2AmnaConstants.primaryColor : Colors.transparent,
+          showBorder ? FiAs2AmnaColors.primaryColor : Colors.transparent,
       child: CircleAvatar(
         radius: 36.0,
         backgroundColor: Colors.white,
@@ -29,7 +31,7 @@ class FiAs2Avatar extends StatelessWidget {
           alignment: Alignment.center,
           children: [
             CircleAvatar(
-              radius: 34.0,
+              radius: size,
               backgroundImage: AssetImage(imagePath),
             ),
             if (putAddButton)
