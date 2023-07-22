@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../constants/fi_as2_hira_colors.dart';
-part 'widgets/fi_as2_hira_part1.dart';
-part 'widgets/fi_as2_hira_profilecontainer.dart';
+part 'widgets/fi_as2_hira_profile_container.dart';
+part 'widgets/fi_as2_hira_profile_Row_button.dart';
 part 'widgets/fi_as2_hira_part3.dart';
 part 'widgets/fi_as2_hira_text.dart';
 
@@ -59,7 +59,7 @@ class H1Profile extends StatelessWidget {
               ),
             ),
             smallspace,
-            const H1Part2(),
+            const H1ProfileRowButton(),
             smallspace,
             const H1Part3(),
           ],
