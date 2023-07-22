@@ -22,7 +22,7 @@ class _CustomTabButton extends StatelessWidget {
             const EdgeInsets.symmetric(horizontal: 20, vertical: 16)),
         backgroundColor: MaterialStateProperty.resolveWith(
           (states) {
-            return isSelected ? ThemeColors.darkGreyColor : Colors.white;
+            return isSelected ? ThemeColorsBilal0x01.darkGreyColor : Colors.white;
           },
         ),
         foregroundColor: MaterialStateProperty.resolveWith(

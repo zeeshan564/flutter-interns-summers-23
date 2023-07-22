@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Post {
+class PostBilal0x01 {
   final String username;
   final String userid;
   final String title;
@@ -10,7 +10,7 @@ class Post {
   final AssetImage profileImage;
   final AssetImage postImage;
 
-  Post({
+  PostBilal0x01({
     required this.username,
     required this.userid,
     required this.title,

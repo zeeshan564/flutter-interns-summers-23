@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../theme/theme_colors_bilal0x01.dart';
 
-class CircularImageBuilder extends StatelessWidget {
-  const CircularImageBuilder({
+class CircularImageBuilderBilal0x01 extends StatelessWidget {
+  const CircularImageBuilderBilal0x01({
     super.key,
     required this.bgImage,
     required this.hasBorder,
@@ -24,7 +24,7 @@ class CircularImageBuilder extends StatelessWidget {
           ? BoxDecoration(
               shape: BoxShape.circle,
               border: Border.all(
-                color: ThemeColors.primaryColor,
+                color: ThemeColorsBilal0x01.primaryColor,
                 width: 3,
               ),
             )

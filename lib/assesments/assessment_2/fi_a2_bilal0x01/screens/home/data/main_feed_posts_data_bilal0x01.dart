@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/post_bilal0x01.dart';
 import '../../../utils/assets_bilal0x01.dart';
 
-final List<Post> posts = [
-  Post(
+final List<PostBilal0x01> posts = [
+  PostBilal0x01(
     username: "Anton Demeron",
     userid: "@anton_demeron",
     title: "Down the road",

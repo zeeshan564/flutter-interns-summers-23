@@ -20,7 +20,7 @@ class LoginScreenBilal0x01 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const _Logo(),
+            const _LogoBilal0x01(),
             smallVertSpace,
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 60),
@@ -28,11 +28,11 @@ class LoginScreenBilal0x01 extends StatelessWidget {
             ),
             bigVertSpace,
             for (var i = 0; i <= 1; i++)
-              _MainButton(
-                buttonColor: i == 0 ? Colors.white : ThemeColors.primaryColor,
+              _MainButtonBilal0x01(
+                buttonColor: i == 0 ? Colors.white : ThemeColorsBilal0x01.primaryColor,
                 clickedAction: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => const MainDashboard(),
+                    builder: (context) => const MainDashboardBilal0x01(),
                   ));
                 },
                 content: smallTitle(

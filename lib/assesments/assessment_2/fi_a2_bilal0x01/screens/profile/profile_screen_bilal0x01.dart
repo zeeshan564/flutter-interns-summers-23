@@ -9,8 +9,8 @@ part 'widgets/photos_section_bilal0x01.dart';
 part 'widgets/cutom_tab_button_bilal0x01.dart';
 part 'widgets/tabs_section_bilal0x01.dart';
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({
+class ProfileScreenBilal0x01 extends StatelessWidget {
+  const ProfileScreenBilal0x01({
     super.key,
   });
 
@@ -37,7 +37,7 @@ class ProfileScreen extends StatelessWidget {
               bigVertSpace,
               Column(
                 children: [
-                  CircularImageBuilder(
+                  CircularImageBuilderBilal0x01(
                     bgImage: AssetImage(StaticAssets.girlImg1),
                     hasBorder: false,
                     size: 40,
@@ -61,7 +61,7 @@ class ProfileScreen extends StatelessWidget {
                                 : i == 1
                                     ? "Followers"
                                     : "Follows",
-                            textColor: ThemeColors.lightGreyColor),
+                            textColor: ThemeColorsBilal0x01.lightGreyColor),
                         smallVertSpace,
                         smallTitle(i == 0
                             ? "315"

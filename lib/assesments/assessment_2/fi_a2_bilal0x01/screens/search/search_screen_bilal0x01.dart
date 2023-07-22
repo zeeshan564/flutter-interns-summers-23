@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SearchScreen extends StatelessWidget {
-  const SearchScreen({super.key});
+class SearchScreenBilal0x01 extends StatelessWidget {
+  const SearchScreenBilal0x01({super.key});
 
   @override
   Widget build(BuildContext context) {

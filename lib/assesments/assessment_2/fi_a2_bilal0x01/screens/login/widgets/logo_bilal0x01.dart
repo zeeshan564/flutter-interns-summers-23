@@ -1,7 +1,7 @@
 part of '../login_screen_bilal0x01.dart';
 
-class _Logo extends StatelessWidget {
-  const _Logo({
+class _LogoBilal0x01 extends StatelessWidget {
+  const _LogoBilal0x01({
     super.key,
   });
 

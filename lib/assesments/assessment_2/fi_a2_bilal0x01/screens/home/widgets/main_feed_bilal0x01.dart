@@ -1,7 +1,7 @@
 part of '../home_screen_bilal0x01.dart';
 
-class _MainFeed extends StatelessWidget {
-  const _MainFeed({
+class _MainFeedBilal0x01 extends StatelessWidget {
+  const _MainFeedBilal0x01({
     super.key,
   });
 
@@ -12,7 +12,7 @@ class _MainFeed extends StatelessWidget {
         itemBuilder: (context, i) {
           return Column(
             children: [
-              i == 0 ? const _StoryCarousel() : const SizedBox(),
+              i == 0 ? const _StoryCarouselBilal0x01() : const SizedBox(),
               Card(
                 margin:
                     const EdgeInsets.symmetric(horizontal: 25, vertical: 15),
@@ -28,7 +28,7 @@ class _MainFeed extends StatelessWidget {
                           const EdgeInsets.symmetric(horizontal: 10),
                       titleAlignment: ListTileTitleAlignment.center,
                       horizontalTitleGap: 8,
-                      leading: CircularImageBuilder(
+                      leading: CircularImageBuilderBilal0x01(
                         hasBorder: true,
                         bgImage: posts[i].profileImage,
                         size: 18,

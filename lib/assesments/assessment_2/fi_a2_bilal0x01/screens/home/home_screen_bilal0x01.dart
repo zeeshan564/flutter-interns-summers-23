@@ -11,15 +11,15 @@ part 'widgets/main_feed_bilal0x01.dart';
 part 'widgets/story_carousel_bilal0x01.dart';
 part 'widgets/top_bar_bilal0x01.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class HomeScreenBilal0x01 extends StatelessWidget {
+  const HomeScreenBilal0x01({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const _TopBar(),
-        const _MainFeed(),
+        const _TopBarBilal0x01(),
+        const _MainFeedBilal0x01(),
       ],
     );
   }

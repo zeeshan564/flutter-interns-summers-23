@@ -1,7 +1,7 @@
 part of '../home_screen_bilal0x01.dart';
 
-class _StoryCarousel extends StatelessWidget {
-  const _StoryCarousel({
+class _StoryCarouselBilal0x01 extends StatelessWidget {
+  const _StoryCarouselBilal0x01({
     super.key,
   });
 
@@ -21,7 +21,7 @@ class _StoryCarousel extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemCount: _carouselImages.length,
         itemBuilder: (context, index) {
-          return CircularImageBuilder(
+          return CircularImageBuilderBilal0x01(
             hasBorder: index == 0 ? false : true,
             hasOverlay: index == 0 ? true : false,
             bgImage: AssetImage(

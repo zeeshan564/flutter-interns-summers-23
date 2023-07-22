@@ -1,10 +1,10 @@
 part of '../login_screen_bilal0x01.dart';
 
-class _MainButton extends StatelessWidget {
+class _MainButtonBilal0x01 extends StatelessWidget {
   final Color buttonColor;
   final VoidCallback clickedAction;
   final Widget content;
-  const _MainButton({
+  const _MainButtonBilal0x01({
     super.key,
     required this.buttonColor,
     required this.clickedAction,
@@ -19,7 +19,7 @@ class _MainButton extends StatelessWidget {
       decoration: BoxDecoration(
         color: buttonColor,
         borderRadius: BorderRadius.circular(50),
-        border: Border.all(color: ThemeColors.fadedOrangeColor, width: 1.5),
+        border: Border.all(color: ThemeColorsBilal0x01.fadedOrangeColor, width: 1.5),
       ),
       child: InkWell(
         customBorder:

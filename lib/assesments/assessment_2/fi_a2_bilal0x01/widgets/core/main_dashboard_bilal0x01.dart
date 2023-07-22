@@ -9,14 +9,14 @@ import '../../screens/notifications/notifications_screen_bilal0x01.dart';
 import '../../screens/add/add_screen_bilal0x01.dart';
 import '../../screens/search/search_screen_bilal0x01.dart';
 
-class MainDashboard extends StatefulWidget {
-  const MainDashboard({super.key});
+class MainDashboardBilal0x01 extends StatefulWidget {
+  const MainDashboardBilal0x01({super.key});
 
   @override
-  State<MainDashboard> createState() => _MainDashboardState();
+  State<MainDashboardBilal0x01> createState() => _MainDashboardBilal0x01State();
 }
 
-class _MainDashboardState extends State<MainDashboard> {
+class _MainDashboardBilal0x01State extends State<MainDashboardBilal0x01> {
   int _pageIndex = 0;
   late List<Widget> _pages;
 
@@ -24,11 +24,11 @@ class _MainDashboardState extends State<MainDashboard> {
   void initState() {
     super.initState();
     _pages = [
-      HomeScreen(),
-      SearchScreen(),
-      AddScreen(),
-      ProfileScreen(),
-      NotificationsScreen(),
+      HomeScreenBilal0x01(),
+      SearchScreenBilal0x01(),
+      AddScreenBilal0x01(),
+      ProfileScreenBilal0x01(),
+      NotificationsScreenBilal0x01(),
     ];
   }
 
@@ -51,7 +51,7 @@ class _MainDashboardState extends State<MainDashboard> {
     return Theme(
       data: Theme.of(context).copyWith(
         appBarTheme: AppBarTheme(
-          foregroundColor: ThemeColors.darkGreyColor,
+          foregroundColor: ThemeColorsBilal0x01.darkGreyColor,
         ),
         scaffoldBackgroundColor: Colors.white,
         splashColor: Colors.transparent,
@@ -70,7 +70,7 @@ class _MainDashboardState extends State<MainDashboard> {
                 child: Container(
                   padding: EdgeInsets.all(15),
                   decoration: BoxDecoration(
-                      color: ThemeColors.darkGreyColor,
+                      color: ThemeColorsBilal0x01.darkGreyColor,
                       borderRadius: BorderRadius.circular(25)),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -86,8 +86,8 @@ class _MainDashboardState extends State<MainDashboard> {
                             fit: BoxFit.contain,
                             colorFilter: _pageIndex == index
                                 ? ColorFilter.mode(
-                                    ThemeColors.primaryColor, BlendMode.srcIn)
-                                : ColorFilter.mode(ThemeColors.secondaryColor,
+                                    ThemeColorsBilal0x01.primaryColor, BlendMode.srcIn)
+                                : ColorFilter.mode(ThemeColorsBilal0x01.secondaryColor,
                                     BlendMode.srcIn),
                           ),
                         );
