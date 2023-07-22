@@ -54,7 +54,7 @@ class _H1HomeRootState extends State<H1HomeRoot> {
                   },
                   icon: Icon(
                     e.value,
-                    size: 32,
+                    size: 34,
                     color:
                         e.key == selectedTab ? Constants.pink : Constants.grey,
                   )))
