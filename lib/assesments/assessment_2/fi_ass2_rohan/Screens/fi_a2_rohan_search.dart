@@ -8,7 +8,7 @@ class FiA2RohanSearch extends StatelessWidget {
       body: Center(
         child: Text(
           "Welcome to Search Page",
-          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
       ),
     );

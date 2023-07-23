@@ -34,7 +34,7 @@ class _FiA2RohanNavigationState extends State<FiA2RohanNavigation> {
     return Scaffold(
       body: screens[tabs],
       floatingActionButton: Container(
-        margin: const EdgeInsets.only(bottom: 30),
+        margin: const EdgeInsets.only(bottom: 20),
         alignment: Alignment.center,
         width: 290,
         height: 60,
