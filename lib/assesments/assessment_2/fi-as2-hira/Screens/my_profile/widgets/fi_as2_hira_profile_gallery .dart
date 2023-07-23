@@ -19,7 +19,7 @@ class H1ProfileGallery extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12),
           ),
-          child: Image.asset('assets/fi-as2-hira-assets/pic1.png'),
+          child: Image.asset(StaticAssets.pic1),
         ),
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

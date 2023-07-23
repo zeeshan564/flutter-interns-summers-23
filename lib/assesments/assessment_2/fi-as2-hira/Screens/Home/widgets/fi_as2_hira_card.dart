@@ -25,15 +25,16 @@ class H1Cardbox extends StatelessWidget {
               height: 60,
               width: 60,
               decoration: BoxDecoration(
-                  color: Constants.pink,
-                  borderRadius: BorderRadius.circular(50),),
+                color: Constants.pink,
+                borderRadius: BorderRadius.circular(50),
+              ),
               padding: const EdgeInsets.all(3.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(50),
                 child: Container(
                   color: Colors.white,
                   padding: const EdgeInsets.all(2),
-                  child: Image.asset("assets/man1.png"),
+                  child: Image.asset(StaticAssets.man1),
                 ),
               ),
             ),
@@ -58,7 +59,7 @@ class H1Cardbox extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(20.0),
               child: Image.asset(
-                "assets/card.png",
+                StaticAssets.card,
                 fit: BoxFit.cover,
               ),
             ),
@@ -67,21 +68,21 @@ class H1Cardbox extends StatelessWidget {
           Row(
             children: [
               Spaces.w15,
-              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Like.svg'),
+              SvgPicture.asset(StaticAssets.like),
               Spaces.w5,
               const Text(
                 '573',
                 style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
               ),
               Spaces.w10,
-              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Coment.svg'),
+              SvgPicture.asset(StaticAssets.coment),
               Spaces.w5,
               const Text(
                 '30',
                 style: TextStyle(fontSize: 11, fontWeight: FontWeight.w600),
               ),
               Spaces.w15,
-              SvgPicture.asset('assets/fi-as2-hira-assets/hira_svg/Share.svg'),
+              SvgPicture.asset(StaticAssets.share),
               const Spacer(),
               const Text(
                 '35 min ago',

@@ -3,6 +3,7 @@ import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_spaces.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../constants/fi_as2_hira_static_assets.dart';
 import '../../widgets/design/fi_as2_hira_avatar.dart';
 
 part 'widgets/fi_as2_hira_card.dart';
@@ -23,8 +24,8 @@ class H1Home extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    SvgPicture.asset('assets/svgs/menu.svg'),
-                    SvgPicture.asset('assets/svgs/notification.svg'),
+                    SvgPicture.asset(StaticAssets.menu),
+                    SvgPicture.asset(StaticAssets.notification),
                   ],
                 ),
               ),
@@ -35,22 +36,22 @@ class H1Home extends StatelessWidget {
                     showBorder: false,
                     hasAddButton: true,
                     child: Image.asset(
-                      'assets/girl1.png',
+                      StaticAssets.girl1,
                     ),
                   ),
                   H1Avatar(
                     child: Image.asset(
-                      'assets/man1.png',
+                      StaticAssets.man1,
                     ),
                   ),
                   H1Avatar(
                     child: Image.asset(
-                      'assets/girl2.png',
+                      StaticAssets.girl2,
                     ),
                   ),
                   H1Avatar(
                     child: Image.asset(
-                      'assets/man1.png',
+                      StaticAssets.man1,
                     ),
                   ),
                 ],

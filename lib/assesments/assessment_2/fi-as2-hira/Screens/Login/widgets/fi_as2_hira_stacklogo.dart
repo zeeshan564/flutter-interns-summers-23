@@ -56,7 +56,7 @@ class H1Logo extends StatelessWidget {
             left: 230,
             child: H1Circle(
               child: Image.asset(
-                'assets/girl1.png',
+                StaticAssets.girl1,
               ),
             ),
           ),
@@ -65,7 +65,7 @@ class H1Logo extends StatelessWidget {
             left: 0,
             child: H1Circle(
               child: Image.asset(
-                'assets/man1.png',
+                StaticAssets.man1,
               ),
             ),
           ),
@@ -73,9 +73,7 @@ class H1Logo extends StatelessWidget {
             top: 250,
             left: 40,
             child: H1Circle(
-              child: Image.asset(
-                'assets/girl2.png',
-              ),
+              child: Image.asset(StaticAssets.girl2),
             ),
           ),
           Positioned(
@@ -83,7 +81,7 @@ class H1Logo extends StatelessWidget {
             left: 260,
             child: H1Circle(
               child: Image.asset(
-                'assets/man1.png',
+                StaticAssets.man1,
               ),
             ),
           ),
