@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_add.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_notification.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/fi_as2_amna_search.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/home/fi_as2_amna_home.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/profile/fi_as2_amna_profile.dart';
-import 'package:flutter_interns/assesments/assessment_2/theme/fi_as2_amna_constants.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/fi_as2_amna_add.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/fi_as2_amna_notification.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/fi_as2_amna_search.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/home/fi_as2_amna_home.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/profile/fi_as2_amna_profile.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/theme/fi_as2_amna_constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class FiAs2AmnaDashboard extends StatefulWidget {

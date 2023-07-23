@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/utils/fi_as2_amna_assets.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/utils/fi_as2_amna_assets.dart';
 import 'package:flutter_svg/svg.dart';
 import '../../theme/fi_as2_amna_constants.dart';
 part 'widget/_fi_as2_amna_button.dart';

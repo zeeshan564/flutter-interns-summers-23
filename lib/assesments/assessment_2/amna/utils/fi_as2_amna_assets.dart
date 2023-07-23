@@ -17,7 +17,7 @@ class FiAs2AmnaAssets {
 
   static const cardImg = "assets/images/card.png";
   static const image_1 = "assets/images/image1.png";
-  static const image_2 = "assets/images/imag2.png";
+  static const image_2 = "assets/images/image2.png";
   static const image_3 = "assets/images/image3.png";
   static const image_4 = "assets/images/image4.png";
 

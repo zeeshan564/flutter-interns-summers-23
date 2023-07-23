@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/screens/profile/widget/fi_as2_amna_profile_card.dart';
-import 'package:flutter_interns/assesments/assessment_2/utils/fi_as2_amna_assets.dart';
-import 'package:flutter_interns/assesments/assessment_2/widgets/fi_as2_amna_avatar.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/screens/profile/widget/fi_as2_amna_profile_card.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/utils/fi_as2_amna_assets.dart';
+import 'package:flutter_interns/assesments/assessment_2/amna/widgets/fi_as2_amna_avatar.dart';
 import 'package:flutter_svg/svg.dart';
 part 'widget/fi_as2_amna_stats.dart';
 
