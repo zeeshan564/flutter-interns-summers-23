@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../rohan_utils/fi_a2_rohan_colors.dart';
+part of '../fi_a2_rohan_profile.dart';
 
 class FiA2RohanProfileSwapButton extends StatefulWidget {
   const FiA2RohanProfileSwapButton({super.key});

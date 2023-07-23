@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Screens/profile_widget/fi_a2_rohan_profile_swapbutton.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Screens/profile_widget/fi_a2_rohan_profile_header.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Screens/profile_widget/fi_a2_rohan_profile_stats.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Screens/profile_widget/fi_a2_rohan_profile_grid.dart';
-
 import '../rohan_utils/fi_a2_rohan_colors.dart';
 import '../rohan_utils/fi_a2_rohan_images.dart';
 import '../rohan_utils/fi_a2_rohan_sizebox.dart';
+part 'profile_widget/fi_a2_rohan_profile_swapbutton.dart';
+part 'profile_widget/fi_a2_rohan_profile_grid.dart';
+part 'profile_widget/fi_a2_rohan_profile_stats.dart';
+part 'profile_widget/fi_a2_rohan_profile_header.dart';
 
 class FiA2RohanProfile extends StatelessWidget {
   const FiA2RohanProfile({super.key});

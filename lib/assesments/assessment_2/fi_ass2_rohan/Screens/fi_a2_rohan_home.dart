@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/Screens/fi_a2_rohan_profile.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../rohan_utils/fi_a2_rohan_colors.dart';
 import '../rohan_utils/fi_a2_rohan_images.dart';

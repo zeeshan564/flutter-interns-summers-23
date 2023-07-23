@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../rohan_utils/fi_a2_rohan_colors.dart';
+part of '../fi_a2_rohan_profile.dart';
 
 class FiA2RohanProfileStats extends StatelessWidget {
   final String text1;

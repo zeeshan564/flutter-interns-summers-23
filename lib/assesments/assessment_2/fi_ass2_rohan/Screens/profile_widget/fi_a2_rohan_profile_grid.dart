@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_ass2_rohan/rohan_utils/fi_a2_rohan_sizebox.dart';
+part of '../fi_a2_rohan_profile.dart';
 
 class FiA2RohanProfileGrid extends StatelessWidget {
   final String path;
