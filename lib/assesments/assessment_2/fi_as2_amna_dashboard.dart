@@ -20,7 +20,7 @@ class _F1As2AmnaDashboardState extends State<F1As2AmnaDashboard> {
     const F1As2AmnaHome(),
     const F1As2AmnaSearch(),
     const F1As2AmnaAdd(),
-    FiAs2AmnaProfile(),
+    const FiAs2AmnaProfile(),
     const F1As2AmnaNotification(), // 0
   ];
   Widget smallWidth = const SizedBox(
