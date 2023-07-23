@@ -36,7 +36,7 @@ class FiAs2Avatar extends StatelessWidget {
             ),
             if (putAddButton)
               SvgPicture.asset(
-                F1As2AmnaAssets.add,
+                FiAs2AmnaAssets.add,
                 color: Colors.white,
               ),
           ],

@@ -15,60 +15,62 @@ class FiAs2AmnaProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.only(
-            top: 30.0,
-            right: 30.0,
-            left: 30.0,
-          ),
-          child: Column(
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  SvgPicture.asset(F1As2AmnaAssets.back),
-                  const Text(
-                    "My Profile",
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w800,
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.only(
+              top: 30.0,
+              right: 30.0,
+              left: 30.0,
+            ),
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SvgPicture.asset(FiAs2AmnaAssets.back),
+                    const Text(
+                      "My Profile",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
+                    SvgPicture.asset(FiAs2AmnaAssets.settings),
+                  ],
+                ),
+                bigSpace,
+                const FiAs2Avatar(
+                  imagePath: FiAs2AmnaAssets.girl_2,
+                  showBorder: false,
+                  size: 40,
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
+                const Text(
+                  "Katherine Mils",
+                  style: TextStyle(
+                    fontSize: 25,
+                    fontWeight: FontWeight.w700,
                   ),
-                  SvgPicture.asset(F1As2AmnaAssets.settings),
-                ],
-              ),
-              bigSpace,
-              const FiAs2Avatar(
-                imagePath: F1As2AmnaAssets.girl_2,
-                showBorder: false,
-                size: 40,
-              ),
-              const SizedBox(
-                height: 30,
-              ),
-              const Text(
-                "Katherine Mils",
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.w700,
                 ),
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              const Text(
-                "@katherine_mils",
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w500,
+                const SizedBox(
+                  height: 15,
                 ),
-              ),
-              bigSpace,
-              const _FiAs2AmnaStats(),
-              const FiAs2ProfileCard(),
-            ],
+                const Text(
+                  "@katherine_mils",
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                bigSpace,
+                const _FiAs2AmnaStats(),
+                const FiAs2ProfileCard(),
+              ],
+            ),
           ),
         ),
       ),

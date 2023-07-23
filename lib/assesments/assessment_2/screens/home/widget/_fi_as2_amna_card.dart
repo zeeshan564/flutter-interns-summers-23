@@ -1,7 +1,7 @@
 part of "../fi_as2_amna_home.dart";
 
-class _F1As2AmnaCard extends StatelessWidget {
-  const _F1As2AmnaCard({Key? key}) : super(key: key);
+class _FiAs2AmnaCard extends StatelessWidget {
+  const _FiAs2AmnaCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class _F1As2AmnaCard extends StatelessWidget {
               Row(
                 children: [
                   const FiAs2Avatar(
-                    imagePath: F1As2AmnaAssets.girl_1,
+                    imagePath: FiAs2AmnaAssets.girl_1,
                     showBorder: false,
                   ),
                   const SizedBox(
@@ -54,13 +54,13 @@ class _F1As2AmnaCard extends StatelessWidget {
                   const SizedBox(
                     width: 70.0,
                   ),
-                  SvgPicture.asset(F1As2AmnaAssets.more),
+                  SvgPicture.asset(FiAs2AmnaAssets.more),
                 ],
               ),
               const SizedBox(
                 height: 5.0,
               ),
-              Image.asset(F1As2AmnaAssets.cardImg),
+              Image.asset(FiAs2AmnaAssets.cardImg),
               const SizedBox(
                 height: 5.0,
               ),
@@ -93,7 +93,7 @@ class _F1As2AmnaCard extends StatelessWidget {
                   const SizedBox(
                     width: 20.0,
                   ),
-                  SvgPicture.asset(F1As2AmnaAssets.cardImg),
+                  SvgPicture.asset(FiAs2AmnaAssets.cardImg),
                   const Spacer(),
                   const Text(
                     "35 min ago",

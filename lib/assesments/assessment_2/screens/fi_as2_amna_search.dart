@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class F1As2AmnaSearch extends StatelessWidget {
-  const F1As2AmnaSearch({super.key});
+class FiAs2AmnaSearch extends StatelessWidget {
+  const FiAs2AmnaSearch({super.key});
 
   @override
   Widget build(BuildContext context) {

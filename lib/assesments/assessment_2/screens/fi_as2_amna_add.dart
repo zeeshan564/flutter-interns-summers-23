@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class F1As2AmnaAdd extends StatelessWidget {
-  const F1As2AmnaAdd({super.key});
+class FiAs2AmnaAdd extends StatelessWidget {
+  const FiAs2AmnaAdd({super.key});
 
   @override
   Widget build(BuildContext context) {

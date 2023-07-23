@@ -7,21 +7,21 @@ import 'package:flutter_interns/assesments/assessment_2/screens/profile/fi_as2_a
 import 'package:flutter_interns/assesments/assessment_2/theme/fi_as2_amna_constants.dart';
 import 'package:flutter_svg/svg.dart';
 
-class F1As2AmnaDashboard extends StatefulWidget {
-  const F1As2AmnaDashboard({super.key});
+class FiAs2AmnaDashboard extends StatefulWidget {
+  const FiAs2AmnaDashboard({super.key});
 
   @override
-  State<F1As2AmnaDashboard> createState() => _F1As2AmnaDashboardState();
+  State<FiAs2AmnaDashboard> createState() => _F1As2AmnaDashboardState();
 }
 
-class _F1As2AmnaDashboardState extends State<F1As2AmnaDashboard> {
+class _F1As2AmnaDashboardState extends State<FiAs2AmnaDashboard> {
   List<Widget> views = [
     // home
-    const F1As2AmnaHome(),
-    const F1As2AmnaSearch(),
-    const F1As2AmnaAdd(),
+    const FiAs2AmnaHome(),
+    const FiAs2AmnaSearch(),
+    const FiAs2AmnaAdd(),
     const FiAs2AmnaProfile(),
-    const F1As2AmnaNotification(), // 0
+    const FiAs2AmnaNotification(), // 0
   ];
   Widget smallWidth = const SizedBox(
     width: 32.0,

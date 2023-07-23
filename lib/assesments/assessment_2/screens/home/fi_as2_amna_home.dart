@@ -6,23 +6,23 @@ import '../../widgets/fi_as2_amna_avatar.dart';
 
 part 'widget/_fi_as2_amna_card.dart';
 
-class F1As2AmnaHome extends StatelessWidget {
-  const F1As2AmnaHome({super.key});
+class FiAs2AmnaHome extends StatelessWidget {
+  const FiAs2AmnaHome({super.key});
 
   @override
   Widget build(BuildContext context) {
     List<String> images = [
-      F1As2AmnaAssets.girl_1,
-      F1As2AmnaAssets.man_1,
-      F1As2AmnaAssets.girl_2,
-      F1As2AmnaAssets.man_1,
-      F1As2AmnaAssets.girl_1,
-      F1As2AmnaAssets.girl_2,
+      FiAs2AmnaAssets.girl_1,
+      FiAs2AmnaAssets.man_1,
+      FiAs2AmnaAssets.girl_2,
+      FiAs2AmnaAssets.man_1,
+      FiAs2AmnaAssets.girl_1,
+      FiAs2AmnaAssets.girl_2,
     ];
 
     List<Widget> cards = [
-      const _F1As2AmnaCard(),
-      const _F1As2AmnaCard(),
+      const _FiAs2AmnaCard(),
+      const _FiAs2AmnaCard(),
     ];
     Widget smallSpace = const SizedBox(
       height: 10.0,
@@ -44,8 +44,8 @@ class F1As2AmnaHome extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  SvgPicture.asset(F1As2AmnaAssets.menu),
-                  SvgPicture.asset(F1As2AmnaAssets.notification),
+                  SvgPicture.asset(FiAs2AmnaAssets.menu),
+                  SvgPicture.asset(FiAs2AmnaAssets.notification),
                 ],
               ),
               mediumSpace,
@@ -54,7 +54,7 @@ class F1As2AmnaHome extends StatelessWidget {
                   child: Row(
                     children: [
                       const FiAs2Avatar(
-                        imagePath: F1As2AmnaAssets.girl_1,
+                        imagePath: FiAs2AmnaAssets.girl_1,
                         showBorder: false,
                         putAddButton: true,
                       ),
@@ -73,7 +73,6 @@ class F1As2AmnaHome extends StatelessWidget {
                 margin: const EdgeInsets.only(top: 10),
                 height: 510.0,
                 child: SingleChildScrollView(
-                  scrollDirection: Axis.vertical,
                   child: Column(
                     children: generateCardsWithSeparator(cards, smallSpace),
                   ),

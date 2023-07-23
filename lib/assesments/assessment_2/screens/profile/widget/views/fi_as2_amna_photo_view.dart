@@ -3,9 +3,9 @@ part of '../fi_as2_amna_profile_card.dart';
 class _FiAs2PhotoView extends StatelessWidget {
   const _FiAs2PhotoView({super.key});
   static const List<String> imagePaths = [
-    F1As2AmnaAssets.image_2,
-    F1As2AmnaAssets.image_3,
-    F1As2AmnaAssets.image_4,
+    FiAs2AmnaAssets.image_2,
+    FiAs2AmnaAssets.image_3,
+    FiAs2AmnaAssets.image_4,
   ];
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class _FiAs2PhotoView extends StatelessWidget {
       child: Row(
         children: [
           Image.asset(
-            F1As2AmnaAssets.image_1,
+            FiAs2AmnaAssets.image_1,
             width: 170,
           ),
           const SizedBox(

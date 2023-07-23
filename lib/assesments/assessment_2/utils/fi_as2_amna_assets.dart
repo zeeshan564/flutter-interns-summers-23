@@ -1,4 +1,4 @@
-class F1As2AmnaAssets {
+class FiAs2AmnaAssets {
   static const circleImg = "assets/loginImg.svg";
 
   static const add = "assets/svgs/add.svg";

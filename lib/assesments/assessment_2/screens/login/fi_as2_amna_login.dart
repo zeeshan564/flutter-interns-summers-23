@@ -19,7 +19,7 @@ class F1As2AmnaLoginScreen extends StatelessWidget {
         child: Column(children: [
           smallSpace,
           Center(
-            child: SvgPicture.asset(F1As2AmnaAssets.circleImg),
+            child: SvgPicture.asset(FiAs2AmnaAssets.circleImg),
           ),
           smallSpace,
           const Center(

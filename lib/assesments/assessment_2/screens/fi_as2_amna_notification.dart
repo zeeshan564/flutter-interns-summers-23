@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class F1As2AmnaNotification extends StatelessWidget {
-  const F1As2AmnaNotification({super.key});
+class FiAs2AmnaNotification extends StatelessWidget {
+  const FiAs2AmnaNotification({super.key});
 
   @override
   Widget build(BuildContext context) {
