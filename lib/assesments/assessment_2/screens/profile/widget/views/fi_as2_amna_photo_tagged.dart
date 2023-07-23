@@ -5,8 +5,11 @@ class _FiAs2AmnaTaggedView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text("Video"),
+    return const Padding(
+      padding: EdgeInsets.all(50),
+      child: Center(
+        child: Text("Video"),
+      ),
     );
   }
 }

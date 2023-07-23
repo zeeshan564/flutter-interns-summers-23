@@ -17,8 +17,8 @@ class _FiAs2ProfileCardState extends State<FiAs2ProfileCard> {
   static const List<String> titles = ["Photos", "Video", "Tagged"];
   static const List<Widget> views = [
     _FiAs2PhotoView(),
-    _FiAs2AmnaTaggedView(),
     _FiAs2AmnaVideoView(),
+    _FiAs2AmnaTaggedView(),
   ];
   int currentIndex = 0;
   @override
@@ -52,7 +52,8 @@ class _FiAs2ProfileCardState extends State<FiAs2ProfileCard> {
                 currentIndex = entry.key;
               }),
               child: currentIndex == entry.key
-                  ? Container(
+                  ? AnimatedContainer(
+                      duration: const Duration(milliseconds: 100),
                       padding: const EdgeInsets.only(
                           left: 20, right: 20, top: 10, bottom: 10),
                       decoration: BoxDecoration(
@@ -68,7 +69,8 @@ class _FiAs2ProfileCardState extends State<FiAs2ProfileCard> {
                         ),
                       ),
                     )
-                  : Container(
+                  : AnimatedContainer(
+                      duration: const Duration(milliseconds: 100),
                       padding: const EdgeInsets.only(
                           left: 20, right: 20, top: 10, bottom: 10),
                       decoration: BoxDecoration(
