@@ -9,7 +9,7 @@ class FiAs2AmnaProfile extends StatelessWidget {
   const FiAs2AmnaProfile({Key? key}) : super(key: key);
 
   final bigSpace = const SizedBox(
-    height: 60,
+    height: 30,
   );
 
   @override
