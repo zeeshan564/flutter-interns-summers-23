@@ -1,13 +1,10 @@
 part of '../fi_as2_hira_profile.dart';
 
-class H1Part3 extends StatelessWidget {
-  const H1Part3({super.key});
+class H1ProfileGallery extends StatelessWidget {
+  const H1ProfileGallery({super.key});
 
   @override
   Widget build(BuildContext context) {
-    Widget smallspace = const SizedBox(
-      height: 16,
-    );
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
@@ -29,7 +26,7 @@ class H1Part3 extends StatelessWidget {
               ),
               child: Image.asset('assets/fi-as2-hira-assets/pic2.png'),
             ),
-            smallspace,
+            Spaces.h15,
             Container(
               height: 80,
               width: 140,
@@ -38,7 +35,7 @@ class H1Part3 extends StatelessWidget {
               ),
               child: Image.asset('assets/fi-as2-hira-assets/pic3.png'),
             ),
-            smallspace,
+            Spaces.h15,
             Container(
               height: 80,
               width: 140,
