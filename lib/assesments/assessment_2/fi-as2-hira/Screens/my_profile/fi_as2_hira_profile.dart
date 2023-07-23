@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_static_assets.dart';
 import '../../constants/fi_as2_hira_colors.dart';
 import '../../constants/fi_as2_hira_spaces.dart';
 part 'widgets/fi_as2_hira_profile_container.dart';
@@ -35,13 +36,13 @@ class H1Profile extends StatelessWidget {
           ),
         ],
       ),
-      body: const SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             Spaces.h25,
-            H1ProfileContainer(),
+            const H1ProfileContainer(),
             Spaces.h25,
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(12.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -53,7 +54,7 @@ class H1Profile extends StatelessWidget {
               ),
             ),
             Spaces.h25,
-            H1ProfileRowButton(),
+            const H1ProfileRowButton(),
             Spaces.h25,
             H1ProfileGallery(),
           ],

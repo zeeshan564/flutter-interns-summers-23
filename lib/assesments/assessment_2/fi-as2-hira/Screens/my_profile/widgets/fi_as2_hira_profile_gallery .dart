@@ -1,8 +1,13 @@
 part of '../fi_as2_hira_profile.dart';
 
 class H1ProfileGallery extends StatelessWidget {
-  const H1ProfileGallery({super.key});
+  H1ProfileGallery({super.key});
 
+  List<String> images = [
+    StaticAssets.pic2,
+    StaticAssets.pic3,
+    StaticAssets.pic4,
+  ];
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -17,33 +22,27 @@ class H1ProfileGallery extends StatelessWidget {
           child: Image.asset('assets/fi-as2-hira-assets/pic1.png'),
         ),
         Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Container(
-              height: 80,
-              width: 140,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Image.asset('assets/fi-as2-hira-assets/pic2.png'),
-            ),
-            Spaces.h15,
-            Container(
-              height: 80,
-              width: 140,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Image.asset('assets/fi-as2-hira-assets/pic3.png'),
-            ),
-            Spaces.h15,
-            Container(
-              height: 80,
-              width: 140,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Image.asset('assets/fi-as2-hira-assets/pic4.png'),
-            ),
+            ...images
+                .asMap()
+                .entries
+                .map(
+                  (e) => Container(
+                    height: 80,
+                    width: 140,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    padding: const EdgeInsets.all(4),
+                    child: Image.asset(
+                      e.value,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                )
+                .toList(),
+            Spaces.h30,
           ],
         ),
       ],
