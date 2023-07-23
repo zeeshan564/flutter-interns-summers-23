@@ -16,10 +16,10 @@ class HomeScreenBilal0x01 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
-        const _TopBarBilal0x01(),
-        const _MainFeedBilal0x01(),
+        _TopBarBilal0x01(),
+        _MainFeedBilal0x01(),
       ],
     );
   }

@@ -6,7 +6,9 @@ class NotificationsScreenBilal0x01 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: const Text("Notifications here"),
+      child: Text(
+        "Notifications here",
+      ),
     );
   }
 }

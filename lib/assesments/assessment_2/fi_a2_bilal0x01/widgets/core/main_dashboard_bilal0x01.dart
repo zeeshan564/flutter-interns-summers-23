@@ -24,11 +24,11 @@ class _MainDashboardBilal0x01State extends State<MainDashboardBilal0x01> {
   void initState() {
     super.initState();
     _pages = [
-      HomeScreenBilal0x01(),
-      SearchScreenBilal0x01(),
-      AddScreenBilal0x01(),
-      ProfileScreenBilal0x01(),
-      NotificationsScreenBilal0x01(),
+      const HomeScreenBilal0x01(),
+      const SearchScreenBilal0x01(),
+      const AddScreenBilal0x01(),
+      const ProfileScreenBilal0x01(),
+      const NotificationsScreenBilal0x01(),
     ];
   }
 
@@ -49,8 +49,9 @@ class _MainDashboardBilal0x01State extends State<MainDashboardBilal0x01> {
   @override
   Widget build(BuildContext context) {
     return Theme(
-      data: Theme.of(context).copyWith(
-        appBarTheme: AppBarTheme(
+      data: ThemeData(
+        fontFamily: "Inter",
+        appBarTheme: const AppBarTheme(
           foregroundColor: ThemeColorsBilal0x01.darkGreyColor,
         ),
         scaffoldBackgroundColor: Colors.white,
@@ -68,10 +69,11 @@ class _MainDashboardBilal0x01State extends State<MainDashboardBilal0x01> {
                 right: 20,
                 left: 20,
                 child: Container(
-                  padding: EdgeInsets.all(15),
+                  padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
-                      color: ThemeColorsBilal0x01.darkGreyColor,
-                      borderRadius: BorderRadius.circular(25)),
+                    color: ThemeColorsBilal0x01.darkGreyColor,
+                    borderRadius: BorderRadius.circular(25),
+                  ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -85,10 +87,14 @@ class _MainDashboardBilal0x01State extends State<MainDashboardBilal0x01> {
                             height: 25,
                             fit: BoxFit.contain,
                             colorFilter: _pageIndex == index
-                                ? ColorFilter.mode(
-                                    ThemeColorsBilal0x01.primaryColor, BlendMode.srcIn)
-                                : ColorFilter.mode(ThemeColorsBilal0x01.secondaryColor,
-                                    BlendMode.srcIn),
+                                ? const ColorFilter.mode(
+                                    ThemeColorsBilal0x01.primaryColor,
+                                    BlendMode.srcIn,
+                                  )
+                                : const ColorFilter.mode(
+                                    ThemeColorsBilal0x01.secondaryColor,
+                                    BlendMode.srcIn,
+                                  ),
                           ),
                         );
                       }),

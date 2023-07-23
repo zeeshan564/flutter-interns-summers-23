@@ -14,7 +14,10 @@ class _TabsSecionState extends State<TabsSecion>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(
+      length: 3,
+      vsync: this,
+    );
   }
 
   @override
@@ -44,20 +47,29 @@ class _TabsSecionState extends State<TabsSecion>
                 },
                 isSelected: _tabController.index == i,
               ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.more_horiz))
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.more_horiz),
+            )
           ],
         ),
         mediumVertSpace,
-        Container(
+        SizedBox(
           height: 400,
           child: TabBarView(
             controller: _tabController,
-            children: [
+            physics: const NeverScrollableScrollPhysics(),
+            children: const [
               _PhotosSection(),
-              Text('Videos here', textAlign: TextAlign.center),
-              Text('Tagged here', textAlign: TextAlign.center),
+              Text(
+                'Videos here',
+                textAlign: TextAlign.center,
+              ),
+              Text(
+                'Tagged here',
+                textAlign: TextAlign.center,
+              ),
             ],
-            physics: NeverScrollableScrollPhysics(),
           ),
         ),
       ],

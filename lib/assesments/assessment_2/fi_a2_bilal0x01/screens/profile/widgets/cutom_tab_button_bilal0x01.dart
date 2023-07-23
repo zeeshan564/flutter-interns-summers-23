@@ -19,10 +19,16 @@ class _CustomTabButton extends StatelessWidget {
           return 0;
         }),
         padding: MaterialStateProperty.all(
-            const EdgeInsets.symmetric(horizontal: 20, vertical: 16)),
+          const EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 16,
+          ),
+        ),
         backgroundColor: MaterialStateProperty.resolveWith(
           (states) {
-            return isSelected ? ThemeColorsBilal0x01.darkGreyColor : Colors.white;
+            return isSelected
+                ? ThemeColorsBilal0x01.darkGreyColor
+                : Colors.white;
           },
         ),
         foregroundColor: MaterialStateProperty.resolveWith(

@@ -38,13 +38,13 @@ class CircularImageBuilderBilal0x01 extends StatelessWidget {
             children: [
               if (hasOverlay)
                 Positioned(
-                  child: Container(
-                    child: IconButton(
-                      onPressed: () {},
-                      icon: Icon(Icons.add_box),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: const Icon(
+                      Icons.add_box,
                     ),
                   ),
-                )
+                ),
             ],
           ),
         ),

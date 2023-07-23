@@ -34,8 +34,11 @@ Widget smallTitle(String content, {FontWeight? fontWeight, Color? textColor}) {
   );
 }
 
-Widget subtitle(String content,
-    {FontWeight? fontWeight, Color textColor = Colors.grey}) {
+Widget subtitle(
+  String content, {
+  FontWeight? fontWeight,
+  Color textColor = Colors.grey,
+}) {
   return Text(
     content,
     style: TextStyle(
@@ -46,8 +49,11 @@ Widget subtitle(String content,
   );
 }
 
-Widget bigSubtitle(String content,
-    {FontWeight? fontWeight, Color textColor = Colors.grey}) {
+Widget bigSubtitle(
+  String content, {
+  FontWeight? fontWeight,
+  Color textColor = Colors.grey,
+}) {
   return Text(
     content,
     style: TextStyle(

@@ -6,7 +6,9 @@ class SearchScreenBilal0x01 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: const Text("Search here"),
+      child: Text(
+        "Search here",
+      ),
     );
   }
 }

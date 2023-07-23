@@ -23,7 +23,7 @@ class _MainFeedBilal0x01 extends StatelessWidget {
                 child: Column(
                   children: [
                     ListTile(
-                      visualDensity: VisualDensity(vertical: 0.1),
+                      visualDensity: const VisualDensity(vertical: 0.1),
                       contentPadding:
                           const EdgeInsets.symmetric(horizontal: 10),
                       titleAlignment: ListTileTitleAlignment.center,
@@ -37,21 +37,25 @@ class _MainFeedBilal0x01 extends StatelessWidget {
                         posts[i].username,
                       ),
                       subtitle: subtitle(posts[i].userid),
-                      trailing: Image(
-                        width: 50,
-                        image: const AssetImage(StaticAssets.detailsIcon),
+                      trailing: IconButton(
+                        onPressed: () {},
+                        icon: const Icon(Icons.more_horiz),
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
-                          vertical: 8, horizontal: 20),
+                        vertical: 8,
+                        horizontal: 20,
+                      ),
                       child: Image(
                         image: posts[i].postImage,
                       ),
                     ),
                     smallVertSpace,
                     Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 20,
+                      ),
                       child: Column(
                         children: [
                           Row(
@@ -60,30 +64,40 @@ class _MainFeedBilal0x01 extends StatelessWidget {
                               Row(
                                 children: [
                                   for (var index = 0; index <= 2; index++)
-                                    Row(children: [
-                                      SvgPicture.asset(index == 0
-                                          ? StaticAssets.likeIcon
-                                          : index == 1
-                                              ? StaticAssets.commentIcon
-                                              : StaticAssets.shareIcon),
-                                      smallHorzSpace,
-                                      Text(index == 0
-                                          ? posts[i].likes.toString()
-                                          : index == 1
-                                              ? posts[i].comments.toString()
-                                              : ""),
-                                      mediumHorzSpace,
-                                    ]),
+                                    Row(
+                                      children: [
+                                        SvgPicture.asset(
+                                          index == 0
+                                              ? StaticAssets.likeIcon
+                                              : index == 1
+                                                  ? StaticAssets.commentIcon
+                                                  : StaticAssets.shareIcon,
+                                        ),
+                                        smallHorzSpace,
+                                        Text(
+                                          index == 0
+                                              ? posts[i].likes.toString()
+                                              : index == 1
+                                                  ? posts[i].comments.toString()
+                                                  : "",
+                                        ),
+                                        mediumHorzSpace,
+                                      ],
+                                    ),
                                 ],
                               ),
-                              subtitle(posts[i].timestamp),
+                              subtitle(
+                                posts[i].timestamp,
+                              ),
                             ],
                           ),
                           mediumVertSpace,
                           Container(
                             alignment: Alignment.centerLeft,
-                            child: smallTitle(posts[i].title,
-                                fontWeight: FontWeight.bold),
+                            child: smallTitle(
+                              posts[i].title,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ],
                       ),

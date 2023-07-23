@@ -14,6 +14,12 @@ class ProfileScreenBilal0x01 extends StatelessWidget {
     super.key,
   });
 
+  final Map<String, String> _profileStats = const {
+    'Photos': '315',
+    'Followers': '77.5',
+    'Follows': '500',
+  };
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,13 +27,19 @@ class ProfileScreenBilal0x01 extends StatelessWidget {
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         elevation: 0,
         actions: [
-          IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.settings),
+          ),
           smallHorzSpace
         ],
         centerTitle: true,
-        title: Text(
+        title: const Text(
           "My Profile",
-          style: TextStyle(fontWeight: FontWeight.w700, color: Colors.black),
+          style: TextStyle(
+            fontWeight: FontWeight.w700,
+            color: Colors.black,
+          ),
         ),
       ),
       body: SingleChildScrollView(
@@ -37,13 +49,16 @@ class ProfileScreenBilal0x01 extends StatelessWidget {
               bigVertSpace,
               Column(
                 children: [
-                  CircularImageBuilderBilal0x01(
+                  const CircularImageBuilderBilal0x01(
                     bgImage: AssetImage(StaticAssets.girlImg1),
                     hasBorder: false,
                     size: 40,
                   ),
                   mediumVertSpace,
-                  mediumTitle("Kathrine Mils", fontWeight: FontWeight.bold),
+                  mediumTitle(
+                    "Kathrine Mils",
+                    fontWeight: FontWeight.bold,
+                  ),
                   smallVertSpace,
                   bigSubtitle("@kathrine_mils")
                 ],
@@ -52,28 +67,19 @@ class ProfileScreenBilal0x01 extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  for (var i = 0; i <= 2; i++)
-                    Column(
+                  ..._profileStats.entries.map((profileData) {
+                    return Column(
                       children: [
-                        bigSubtitle(
-                            i == 0
-                                ? "Photos"
-                                : i == 1
-                                    ? "Followers"
-                                    : "Follows",
-                            textColor: ThemeColorsBilal0x01.lightGreyColor),
+                        bigSubtitle(profileData.key),
                         smallVertSpace,
-                        smallTitle(i == 0
-                            ? "315"
-                            : i == 1
-                                ? "77.5k"
-                                : "500"),
+                        smallTitle(profileData.value),
                       ],
-                    )
+                    );
+                  })
                 ],
               ),
               bigVertSpace,
-              TabsSecion()
+              const TabsSecion()
             ],
           ),
         ),

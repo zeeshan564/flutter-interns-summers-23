@@ -23,18 +23,13 @@ class StaticAssets {
       "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/comment.svg";
   static const String shareIcon =
       "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/share.svg";
-  static const String homeIcon =
-      "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/home.svg";
-  static const String searchIcon =
-      "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/search.svg";
-  static const String notificationIcon =
-      "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/notification.svg";
+  static const String homeIcon = "assets/svgs/home.svg";
+  static const String searchIcon = "assets/svgs/search.svg";
+  static const String notificationIcon = "assets/svgs/notification_2.svg";
   static const String addIcon =
       "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/add.svg";
   static const String profileIcon =
       "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/profile.svg";
-  static const String detailsIcon =
-      "lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/details.png";
   static const String menuIcon = "assets/svgs/menu.svg";
-  static const String badgeNotificationIcon = "assets/svgs/notification_2.svg";
+  static const String badgeNotificationIcon = "assets/svgs/notification.svg";
 }

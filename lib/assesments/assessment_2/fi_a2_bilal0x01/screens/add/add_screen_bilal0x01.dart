@@ -6,7 +6,9 @@ class AddScreenBilal0x01 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: const Text("Add here"),
+      child: Text(
+        "Add here",
+      ),
     );
   }
 }
