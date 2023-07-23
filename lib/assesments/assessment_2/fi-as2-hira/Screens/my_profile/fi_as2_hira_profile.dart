@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../../constants/fi_as2_hira_colors.dart';
+import '../../constants/fi_as2_hira_spaces.dart';
 part 'widgets/fi_as2_hira_profile_container.dart';
-part 'widgets/fi_as2_hira_profile_Row_button.dart';
-part 'widgets/fi_as2_hira_part3.dart';
+part 'widgets/fi_as2_hira_profilerow_button.dart';
+part 'widgets/fi_as2_hira_profile_gallery .dart';
 part 'widgets/fi_as2_hira_text.dart';
 
 class H1Profile extends StatelessWidget {
@@ -10,9 +11,6 @@ class H1Profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget smallspace = const SizedBox(
-      height: 25,
-    );
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -21,16 +19,12 @@ class H1Profile extends StatelessWidget {
         title: const Text(
           'My Profile',
           style: TextStyle(
-              color: Colors.black, fontSize: 23, fontWeight: FontWeight.w700),
+            color: Colors.black,
+            fontSize: 23,
+            fontWeight: FontWeight.w700,
+          ),
         ),
         centerTitle: true,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back,
-            color: Colors.black,
-          ),
-          onPressed: () {},
-        ),
         actions: [
           IconButton(
             icon: const Icon(
@@ -41,13 +35,13 @@ class H1Profile extends StatelessWidget {
           ),
         ],
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
           children: [
-            smallspace,
-            const H1ProfileContainer(),
-            smallspace,
-            const Padding(
+            Spaces.h25,
+            H1ProfileContainer(),
+            Spaces.h25,
+            Padding(
               padding: EdgeInsets.all(12.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -58,10 +52,10 @@ class H1Profile extends StatelessWidget {
                 ],
               ),
             ),
-            smallspace,
-            const H1ProfileRowButton(),
-            smallspace,
-            const H1Part3(),
+            Spaces.h25,
+            H1ProfileRowButton(),
+            Spaces.h25,
+            H1ProfileGallery(),
           ],
         ),
       ),

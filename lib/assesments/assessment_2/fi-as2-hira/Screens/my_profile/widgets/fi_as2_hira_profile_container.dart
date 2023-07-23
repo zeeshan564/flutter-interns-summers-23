@@ -1,4 +1,3 @@
-
 part of '../fi_as2_hira_profile.dart';
 
 class H1ProfileContainer extends StatelessWidget {
@@ -12,7 +11,9 @@ class H1ProfileContainer extends StatelessWidget {
           child: Container(
             height: 100,
             width: 100,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(50)),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(50),
+            ),
             child: ClipRRect(
               child: Image.asset(
                 'assets/girl1.png',
@@ -21,17 +22,13 @@ class H1ProfileContainer extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(
-          height: 20,
-        ),
+        Spaces.h20,
         const Text(
           'Kathrine Mils',
           style: TextStyle(
               fontSize: 24, fontWeight: FontWeight.w600, color: Colors.black),
         ),
-        const SizedBox(
-          height: 10,
-        ),
+        Spaces.h10,
         const Text(
           '@kathrine_mils',
           style: TextStyle(

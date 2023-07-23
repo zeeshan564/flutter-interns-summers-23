@@ -3,7 +3,7 @@ import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_spaces.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'widgets/fi_as2_hira_avatar.dart';
+import '../../widgets/design/fi_as2_hira_avatar.dart';
 
 part 'widgets/fi_as2_hira_card.dart';
 
@@ -12,17 +12,12 @@ class H1Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget smallspace = const SizedBox(
-      height: 40,
-    );
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const SizedBox(
-                height: 20,
-              ),
+              Spaces.h20,
               Padding(
                 padding: const EdgeInsets.all(27.0),
                 child: Row(
@@ -60,9 +55,9 @@ class H1Home extends StatelessWidget {
                   ),
                 ],
               ),
-              smallspace,
+              Spaces.h40,
               const H1Cardbox(),
-              smallspace,
+              Spaces.h40,
             ],
           ),
         ),

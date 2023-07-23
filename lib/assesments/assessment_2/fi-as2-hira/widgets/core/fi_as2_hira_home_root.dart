@@ -3,8 +3,8 @@ import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/Home
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/my_profile/fi_as2_hira_profile.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/Screens/notification/fi_as2_hira_notification.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/constants/fi_as2_hira_colors.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/addbox/fi_as2_hira_addbox.dart';
 import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/screens/search/fi_as2_hira_search.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi-as2-hira/widgets/design/fi_as2_hira_addbox.dart';
 
 class H1HomeRoot extends StatefulWidget {
   const H1HomeRoot({super.key});
@@ -46,18 +46,23 @@ class _H1HomeRootState extends State<H1HomeRoot> {
           children: bottomNavItems
               .asMap()
               .entries
-              .map((e) => IconButton(
+              .map(
+                (e) => IconButton(
                   onPressed: () {
-                    setState(() {
-                      selectedTab = e.key;
-                    });
+                    setState(
+                      () {
+                        selectedTab = e.key;
+                      },
+                    );
                   },
                   icon: Icon(
                     e.value,
                     size: 34,
                     color:
                         e.key == selectedTab ? Constants.pink : Constants.grey,
-                  )))
+                  ),
+                ),
+              )
               .toList(),
         ),
       ),

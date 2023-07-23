@@ -1,4 +1,3 @@
-
 part of '../fi_as2_hira_profile.dart';
 
 class H1ProfileRowButton extends StatelessWidget {
@@ -9,7 +8,7 @@ class H1ProfileRowButton extends StatelessWidget {
     int index = 0;
     return Row(
       children: [
-        const Padding(padding: EdgeInsets.only(left: 20)),
+        Spaces.w20,
         for (int i = 0; i < 3; i++)
           Container(
             height: 39,
@@ -25,20 +24,20 @@ class H1ProfileRowButton extends StatelessWidget {
                       ? 'Video'
                       : 'Tagged',
               style: TextStyle(
-                  color: index == i ? Constants.textgrey : Constants.fontgrey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600),
+                color: index == i ? Constants.textgrey : Constants.fontgrey,
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
-        Padding(
-          padding: const EdgeInsets.only(left: 16),
-          child: IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.more_horiz,
-                size: 32,
-              )),
-        )
+        Spaces.w15,
+        IconButton(
+          onPressed: () {},
+          icon: const Icon(
+            Icons.more_horiz,
+            size: 32,
+          ),
+        ),
       ],
     );
   }

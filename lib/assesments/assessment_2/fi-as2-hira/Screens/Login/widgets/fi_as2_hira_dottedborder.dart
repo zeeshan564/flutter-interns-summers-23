@@ -14,10 +14,11 @@ class H1Dotted extends StatelessWidget {
       dashPattern: const [11, 9],
       padding: const EdgeInsets.all(6),
       child: ClipRRect(
-          borderRadius: const BorderRadius.all(
-            Radius.circular(500),
-          ),
-          child: child),
+        borderRadius: const BorderRadius.all(
+          Radius.circular(500),
+        ),
+        child: child,
+      ),
     );
   }
 }

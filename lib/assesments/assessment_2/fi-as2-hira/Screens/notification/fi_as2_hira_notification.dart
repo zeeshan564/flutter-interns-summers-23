@@ -10,21 +10,13 @@ class H1Notification extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0.0,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back,
-            color: Colors.black,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
       ),
       body: const Center(
-          child: Text(
-        'Hi Go back!\n Notification',
-        style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-      )),
+        child: Text(
+          'Hi Go back!\n Notification',
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+        ),
+      ),
     );
   }
 }

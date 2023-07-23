@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class H1Search extends StatelessWidget {
-  const H1Search({super.key});
+class H1Addbox extends StatelessWidget {
+  const H1Addbox({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +13,8 @@ class H1Search extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Hi Go back!\n Search',
-          style: TextStyle(
-            fontSize: 30,
-            fontWeight: FontWeight.bold,
-          ),
+          'Hi Go back!\n AddBox ',
+          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
       ),
     );

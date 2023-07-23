@@ -12,17 +12,19 @@ class H1Text extends StatelessWidget {
         Text(
           text1,
           style: const TextStyle(
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-              color: Constants.fontgrey),
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+            color: Constants.fontgrey,
+          ),
         ),
         Text(
           text2,
           style: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w600,
-              color: Constants.black),
-        )
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+            color: Constants.black,
+          ),
+        ),
       ],
     );
   }

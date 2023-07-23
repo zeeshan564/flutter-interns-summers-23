@@ -1,4 +1,3 @@
-
 part of '../fi_as2_hira_login.dart';
 
 class H1Logo extends StatelessWidget {
@@ -10,13 +9,17 @@ class H1Logo extends StatelessWidget {
       height: 18,
       width: 18,
       decoration: BoxDecoration(
-          color: Constants.pink, borderRadius: BorderRadius.circular(10)),
+        color: Constants.pink,
+        borderRadius: BorderRadius.circular(10),
+      ),
     );
     Widget smallCircle = Container(
       height: 15,
       width: 15,
       decoration: BoxDecoration(
-          color: Constants.pink, borderRadius: BorderRadius.circular(10)),
+        color: Constants.pink,
+        borderRadius: BorderRadius.circular(10),
+      ),
     );
     return Container(
       height: 333,

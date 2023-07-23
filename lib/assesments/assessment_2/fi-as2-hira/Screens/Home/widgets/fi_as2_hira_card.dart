@@ -26,8 +26,8 @@ class H1Cardbox extends StatelessWidget {
               width: 60,
               decoration: BoxDecoration(
                   color: Constants.pink,
-                  borderRadius: BorderRadius.circular(50)),
-              padding: EdgeInsets.all(3.0),
+                  borderRadius: BorderRadius.circular(50),),
+              padding: const EdgeInsets.all(3.0),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(50),
                 child: Container(
@@ -100,9 +100,9 @@ class H1Cardbox extends StatelessWidget {
               Text(
                 "Down the road",
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
-              )
+              ),
             ],
-          )
+          ),
         ],
       ),
     );
