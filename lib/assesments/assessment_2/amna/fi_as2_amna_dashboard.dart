@@ -7,15 +7,15 @@ import 'package:flutter_interns/assesments/assessment_2/amna/screens/profile/fi_
 import 'package:flutter_interns/assesments/assessment_2/amna/theme/fi_as2_amna_constants.dart';
 import 'package:flutter_svg/svg.dart';
 
-class FiAs2AmnaDashboard extends StatefulWidget {
-  const FiAs2AmnaDashboard({super.key});
+class _FiAs2AmnaDashboard extends StatefulWidget {
+  const _FiAs2AmnaDashboard({super.key});
 
   @override
-  State<FiAs2AmnaDashboard> createState() => _F1As2AmnaDashboardState();
+  State<_FiAs2AmnaDashboard> createState() => _F1As2AmnaDashboardState();
 }
 
-class _F1As2AmnaDashboardState extends State<FiAs2AmnaDashboard> {
-  List<Widget> views = [
+class _F1As2AmnaDashboardState extends State<_FiAs2AmnaDashboard> {
+  final List<Widget> views = [
     // home
     const FiAs2AmnaHome(),
     const FiAs2AmnaSearch(),
@@ -23,19 +23,20 @@ class _F1As2AmnaDashboardState extends State<FiAs2AmnaDashboard> {
     const FiAs2AmnaProfile(),
     const FiAs2AmnaNotification(), // 0
   ];
+
+  final List<String> icons = [
+    'assets/svgs/home.svg',
+    'assets/svgs/Search.svg',
+    'assets/svgs/add.svg',
+    'assets/svgs/Profile.svg',
+    'assets/svgs/notification_2.svg'
+  ];
   Widget smallWidth = const SizedBox(
     width: 32.0,
   );
   int currentIndex = 0;
   @override
   Widget build(BuildContext context) {
-    List<String> icons = [
-      'assets/svgs/home.svg',
-      'assets/svgs/Search.svg',
-      'assets/svgs/add.svg',
-      'assets/svgs/Profile.svg',
-      'assets/svgs/notification_2.svg'
-    ];
     return Scaffold(
       body: SafeArea(
         child: views[currentIndex],

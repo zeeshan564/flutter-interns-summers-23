@@ -89,7 +89,7 @@ class _FiAs2ProfileCardState extends State<FiAs2ProfileCard> {
         .toList();
     List<Widget> widgetsWithSeparator =
         columns.expand((widget) => [widget, separator]).toList();
-    widgetsWithSeparator.add(SvgPicture.asset(FiAs2AmnaAssets.more)); //
+    widgetsWithSeparator.add(SvgPicture.asset(FiAs2AmnaAssets.more));
     return widgetsWithSeparator;
   }
 }

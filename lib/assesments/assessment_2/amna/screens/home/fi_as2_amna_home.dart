@@ -11,7 +11,7 @@ class FiAs2AmnaHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> images = [
+    final List<String> images = [
       FiAs2AmnaAssets.girl_1,
       FiAs2AmnaAssets.man_1,
       FiAs2AmnaAssets.girl_2,
@@ -20,9 +20,9 @@ class FiAs2AmnaHome extends StatelessWidget {
       FiAs2AmnaAssets.girl_2,
     ];
 
-    List<Widget> cards = [
-      const _FiAs2AmnaCard(),
-      const _FiAs2AmnaCard(),
+    const List<Widget> cards = [
+      _FiAs2AmnaCard(),
+      _FiAs2AmnaCard(),
     ];
     Widget smallSpace = const SizedBox(
       height: 10.0,

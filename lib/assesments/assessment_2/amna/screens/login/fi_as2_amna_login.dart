@@ -6,12 +6,11 @@ part 'widget/_fi_as2_amna_button.dart';
 
 class F1As2AmnaLoginScreen extends StatelessWidget {
   const F1As2AmnaLoginScreen({super.key});
-
+  final Widget smallSpace = const SizedBox(
+    height: 40.0,
+  );
   @override
   Widget build(BuildContext context) {
-    Widget smallSpace = const SizedBox(
-      height: 40.0,
-    );
     return Scaffold(
       body: SafeArea(
           child: Padding(
