@@ -21,7 +21,7 @@ class _H1HomeRootState extends State<H1HomeRoot> {
     H1Profile(),
     H1Notification(),
   ];
-  List<IconData> bottomNavItems = [
+  final List<IconData> bottomNavItems = [
     Icons.home,
     Icons.search,
     Icons.add_box,
