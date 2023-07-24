@@ -53,6 +53,8 @@ flutter:
   assets:
     - assets/
     - assets/svgs/
+    - assets/fi_ass2_rohan_assets/
+    - assets/fi_ass2_rohan_assets/svg_rohan/
     - assets/images/
     - lib/assesments/assessment_2/fi_a2_bilal0x01/assets/images/
 
