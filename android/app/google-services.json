@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28198184162",
+    "project_id": "social-app-fi",
+    "storage_bucket": "social-app-fi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28198184162:android:159c63208d90b5ac78aabb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_interns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28198184162-fuo4r6bi3k0dsmjcl93g731ebd8fotev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-i6jcwJNSRhEfdYrqve6EZWOpD9w4CPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28198184162-fuo4r6bi3k0dsmjcl93g731ebd8fotev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

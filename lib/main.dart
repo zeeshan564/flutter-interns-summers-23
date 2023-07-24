@@ -1,7 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'assesments/assessment_2/fi_ass2_rohan/Screens/fi_a2_rohan_login.dart';
+import 'package:flutter_interns/sessions/session_2/screens/dashboard/s2_dashboard.dart';
 
-void main(List<String> args) {
+import 'firebase_options.dart';
+
+void main(List<String> args) async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(const MyApp());
 }
 
@@ -13,7 +21,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Summer Internship \'23',
-      home: FiA2RohanLogin(),
+      home: S2DashboardScreen(),
     );
   }
 }
