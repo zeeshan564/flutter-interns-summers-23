@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class FiA2RohanImages {
   static const String login = "assets/fi_ass2_rohan_assets/fi_login.png";
   static const String sun = "assets/fi_ass2_rohan_assets/sun.png";
