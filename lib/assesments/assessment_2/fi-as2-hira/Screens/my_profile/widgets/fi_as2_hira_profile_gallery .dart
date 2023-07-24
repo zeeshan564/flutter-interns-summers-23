@@ -3,7 +3,7 @@ part of '../fi_as2_hira_profile.dart';
 class H1ProfileGallery extends StatelessWidget {
   H1ProfileGallery({super.key});
 
-  List<String> images = [
+  final List<String> images = [
     StaticAssets.pic2,
     StaticAssets.pic3,
     StaticAssets.pic4,
