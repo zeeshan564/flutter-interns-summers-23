@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/sessions/session_2/screens/dashboard/s2_dashboard.dart';
+import 'package:flutter_interns/sessions/session_3/s3_home.dart';
 
 import 'firebase_options.dart';
 
@@ -18,10 +18,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Summer Internship \'23',
-      home: S2DashboardScreen(),
+      theme: ThemeData(useMaterial3: true),
+      home: const S3Home(),
     );
   }
 }
