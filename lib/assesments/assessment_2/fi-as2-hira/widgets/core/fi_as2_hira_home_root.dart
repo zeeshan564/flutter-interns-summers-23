@@ -14,12 +14,12 @@ class H1HomeRoot extends StatefulWidget {
 }
 
 class _H1HomeRootState extends State<H1HomeRoot> {
-  List<Widget> screens = [
-    const H1Home(),
-    const H1Search(),
-    const H1Addbox(),
-    const H1Profile(),
-    const H1Notification(),
+  final List<Widget> screens = const [
+    H1Home(),
+    H1Search(),
+    H1Addbox(),
+    H1Profile(),
+    H1Notification(),
   ];
   List<IconData> bottomNavItems = [
     Icons.home,
