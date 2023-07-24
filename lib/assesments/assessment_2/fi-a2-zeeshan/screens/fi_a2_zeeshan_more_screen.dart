@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
+import '../utils/fi_a2_zeeshan_constants.dart';
 
-class FIA2ZeeshanSettingScreen extends StatelessWidget {
-  const FIA2ZeeshanSettingScreen({super.key});
+class FIA2ZeeshanMoreScreen extends StatelessWidget {
+  const FIA2ZeeshanMoreScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class FIA2ZeeshanSettingScreen extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Text(
-            'Setting Screen',
+            'More Screen',
             style: TextStyle(
               fontFamily: fontFamily,
               fontWeight: FontWeight.w600,

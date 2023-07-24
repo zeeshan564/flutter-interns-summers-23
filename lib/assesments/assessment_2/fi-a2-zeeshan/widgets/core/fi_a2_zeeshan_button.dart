@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
+import '../../utils/fi_a2_zeeshan_constants.dart';
 
 class FIA2ZeeshanButton extends StatelessWidget {
   final VoidCallback onPressed;

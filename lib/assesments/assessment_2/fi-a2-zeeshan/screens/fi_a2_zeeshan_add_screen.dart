@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
+import '../utils/fi_a2_zeeshan_constants.dart';
 
-class FIA2ZeeshanChatScreen extends StatelessWidget {
-  const FIA2ZeeshanChatScreen({super.key});
+class FIA2ZeeshanAddScreen extends StatelessWidget {
+  const FIA2ZeeshanAddScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class FIA2ZeeshanChatScreen extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Text(
-            'Chat Screen',
+            'Add Screen',
             style: TextStyle(
               fontFamily: fontFamily,
               fontWeight: FontWeight.w600,

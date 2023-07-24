@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/screens/fi_a2_zeeshan_add_screen.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/screens/fi_a2_zeeshan_chat_screen.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/screens/fi_a2_zeeshan_notification_screen.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/screens/fi_a2_zeeshan_profile_screen.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/screens/fi_a2_zeeshan_search_screen.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_nav_functions.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/widgets/design/fi_a2_zeeshan_profile_container.dart';
+import '../../screens/fi_a2_zeeshan_add_screen.dart';
+import '../..//screens/fi_a2_zeeshan_chat_screen.dart';
+import '../../screens/fi_a2_zeeshan_notification_screen.dart';
+import '../../screens/fi_a2_zeeshan_profile_screen.dart';
+import '../../screens/fi_a2_zeeshan_search_screen.dart';
+import '../../utils/fi_a2_zeeshan_constants.dart';
+import '../../utils/fi_a2_zeeshan_nav_functions.dart';
+import '../../widgets/design/fi_a2_zeeshan_profile_container.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 part 'widgets/_fi_a2_zeeshan_post_card.dart';

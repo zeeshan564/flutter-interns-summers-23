@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_constants.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/utils/fi_a2_zeeshan_nav_functions.dart';
-import 'package:flutter_interns/assesments/assessment_2/zeeshan/widgets/core/fi_a2_zeeshan_button.dart';
+import '../utils/fi_a2_zeeshan_constants.dart';
+import '../utils/fi_a2_zeeshan_nav_functions.dart';
+import '../widgets/core/fi_a2_zeeshan_button.dart';
 
 import 'fi_a2_zeeshan_home_screen/fi_a2_zeeshan_home_screen.dart';
 
