@@ -5,7 +5,7 @@ class H1Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget bigCircle = Container(
+    final Widget bigCircle = Container(
       height: 18,
       width: 18,
       decoration: BoxDecoration(
@@ -13,7 +13,7 @@ class H1Logo extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
     );
-    Widget smallCircle = Container(
+    final Widget smallCircle = Container(
       height: 15,
       width: 15,
       decoration: BoxDecoration(
