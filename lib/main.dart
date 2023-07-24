@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/sessions/session_1/s1_home.dart';
+import 'package:flutter_interns/sessions/session_2/screens/dashboard/s2_dashboard.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Summer Internship \'23',
-      home: S1Home(),
+      home: S2DashboardScreen(),
     );
   }
 }
