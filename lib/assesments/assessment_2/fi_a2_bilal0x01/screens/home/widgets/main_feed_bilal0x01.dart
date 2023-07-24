@@ -1,9 +1,7 @@
 part of '../home_screen_bilal0x01.dart';
 
 class _MainFeedBilal0x01 extends StatelessWidget {
-  const _MainFeedBilal0x01({
-    super.key,
-  });
+  const _MainFeedBilal0x01();
 
   @override
   Widget build(BuildContext context) {

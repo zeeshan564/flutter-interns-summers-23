@@ -8,7 +8,7 @@ import 'package:flutter_interns/assesments/assessment_2/amna/theme/fi_as2_amna_c
 import 'package:flutter_svg/svg.dart';
 
 class _FiAs2AmnaDashboard extends StatefulWidget {
-  const _FiAs2AmnaDashboard({super.key});
+  const _FiAs2AmnaDashboard();
 
   @override
   State<_FiAs2AmnaDashboard> createState() => _F1As2AmnaDashboardState();

@@ -1,7 +1,7 @@
 part of '../fi_as2_amna_profile.dart';
 
 class _FiAs2AmnaStats extends StatelessWidget {
-  const _FiAs2AmnaStats({super.key});
+  const _FiAs2AmnaStats();
   static const List<String> titles = ["Photos", "Followers", "Follows"];
   static const List<String> numbers = ["315", "77.5k", "500"];
   @override

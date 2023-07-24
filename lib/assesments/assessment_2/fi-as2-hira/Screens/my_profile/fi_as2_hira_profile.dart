@@ -4,7 +4,7 @@ import '../../constants/fi_as2_hira_colors.dart';
 import '../../constants/fi_as2_hira_spaces.dart';
 part 'widgets/fi_as2_hira_profile_container.dart';
 part 'widgets/fi_as2_hira_profilerow_button.dart';
-part 'widgets/fi_as2_hira_profile_gallery .dart';
+part 'widgets/fi_as2_hira_profile_gallery.dart';
 part 'widgets/fi_as2_hira_text.dart';
 
 class H1Profile extends StatelessWidget {

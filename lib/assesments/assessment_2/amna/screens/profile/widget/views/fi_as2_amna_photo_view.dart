@@ -1,7 +1,7 @@
 part of '../fi_as2_amna_profile_card.dart';
 
 class _FiAs2PhotoView extends StatelessWidget {
-  const _FiAs2PhotoView({super.key});
+  const _FiAs2PhotoView();
   static const List<String> imagePaths = [
     FiAs2AmnaAssets.image_2,
     FiAs2AmnaAssets.image_3,

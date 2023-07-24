@@ -1,9 +1,7 @@
 part of '../home_screen_bilal0x01.dart';
 
 class _StoryCarouselBilal0x01 extends StatelessWidget {
-  const _StoryCarouselBilal0x01({
-    super.key,
-  });
+  const _StoryCarouselBilal0x01();
 
   final List<String> _carouselImages = const [
     StaticAssets.girlImg1,

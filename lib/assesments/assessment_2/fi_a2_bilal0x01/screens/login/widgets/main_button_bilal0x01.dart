@@ -5,7 +5,6 @@ class _MainButtonBilal0x01 extends StatelessWidget {
   final VoidCallback clickedAction;
   final Widget content;
   const _MainButtonBilal0x01({
-    super.key,
     required this.buttonColor,
     required this.clickedAction,
     required this.content,

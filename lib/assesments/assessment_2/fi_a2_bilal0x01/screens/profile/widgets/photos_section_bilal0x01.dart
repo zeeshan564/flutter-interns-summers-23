@@ -1,7 +1,7 @@
 part of '../profile_screen_bilal0x01.dart';
 
 class _PhotosSection extends StatelessWidget {
-  const _PhotosSection({super.key});
+  const _PhotosSection();
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +54,6 @@ class _PhotosSection extends StatelessWidget {
 
 class _ClippedImage extends StatelessWidget {
   const _ClippedImage({
-    super.key,
     required this.imagePath,
   });
 
