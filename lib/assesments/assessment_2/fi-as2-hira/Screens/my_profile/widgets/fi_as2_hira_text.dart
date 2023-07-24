@@ -1,16 +1,16 @@
 part of '../fi_as2_hira_profile.dart';
 
 class H1Text extends StatelessWidget {
-  final String text1;
-  final String text2;
-  const H1Text({super.key, required this.text1, required this.text2});
+  final String heading;
+  final String subheading;
+  const H1Text({super.key, required this.heading, required this.subheading});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         Text(
-          text1,
+          heading,
           style: const TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w600,
@@ -18,7 +18,7 @@ class H1Text extends StatelessWidget {
           ),
         ),
         Text(
-          text2,
+          subheading,
           style: const TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.w600,

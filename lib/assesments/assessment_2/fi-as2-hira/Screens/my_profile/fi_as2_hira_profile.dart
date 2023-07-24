@@ -47,9 +47,9 @@ class H1Profile extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  H1Text(text1: 'Photos', text2: '315'),
-                  H1Text(text1: 'Followers', text2: '77.5k'),
-                  H1Text(text1: 'Follows', text2: '500'),
+                  H1Text(heading: 'Photos', subheading: '315'),
+                  H1Text(heading: 'Followers', subheading: '77.5k'),
+                  H1Text(heading: 'Follows', subheading: '500'),
                 ],
               ),
             ),
